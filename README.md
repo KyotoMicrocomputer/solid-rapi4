@@ -14,6 +14,6 @@
 
 ## サンプルプログラム
 
-https://github.com/KyotoMicrocomputer/solid-rapi4-examples を参照してください。
+[SOLID for Raspberry Pi 4 Examples](https://github.com/KyotoMicrocomputer/solid-rapi4-examples) を参照してください。
 
 
