@@ -1,8 +1,6 @@
 # SOLID for Raspberry Pi4
 
-## 準備
-
-### 必要なもの
+## 必要なもの
 
 - [Raspberry Pi4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - 容量16GB以上のSDカード
@@ -27,4 +25,10 @@
 
 ### プログラムのビルドと実行
 
-1. サンプルプログラムの実行
+1. [サンプルプログラムの実行](doc/running-sample-program.md)
+   - [c-blinky-ap804 のビルド](doc/running-sample-program.md#c-blinky-ap804-のビルド)
+   - [c-blinky-ap804 の実行とデバッグ](doc/running-sample-program.md#c-blinky-ap804-の実行とデバッグ)
+
+2. [プロジェクトを作成して実行](doc/build-and-run-newproject.md)
+   - [プロジェクトの新規作成](doc/build-and-run-newproject.md#プロジェクトの新規作成)
+   - [実行とデバッグ](doc/build-and-run-newproject.md#実行とデバッグ)
