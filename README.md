@@ -12,10 +12,10 @@
 ## チュートリアル
 
 ### 準備
-1. [SDカードの準備](doc/writing-sd-card-image.md)
-   - [カスタムイメージの選択](doc/writing-sd-card-image.md#カスタムイメージの選択)
-   - [設定](doc/writing-sd-card-image.md#設定)
-   - [イメージの書き込み](doc/writing-sd-card-image.md#イメージの書き込み)
+1. [SDカードの準備](doc/flashing-sd-card.md)
+   - [カスタムイメージの選択](doc/flashing-sd-card.md#カスタムイメージの選択)
+   - [設定](doc/flashing-sd-card.md#設定)
+   - [イメージの書き込み](doc/flashing-sd-card.md#イメージの書き込み)
 
 2. [開発環境のセットアップ](doc/setup-devenv.md)
    - [インストーラのダウンロード](doc/setup-devenv.md#インストーラのダウンロード)
