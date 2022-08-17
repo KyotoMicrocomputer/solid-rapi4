@@ -17,6 +17,6 @@
 
 3. 次にデバッガ、IDEのコンポーネント、ツールチェーンなどがインストールされますので、ダイアログの指示に従ってインストールしてください。
 
-4. `SOLID for Raspberry Pi 4` のインストールが完了したら、`Visual Studio Shell 2013 Update 5 ` をインストールしてください。
+4. `SOLID for Raspberry Pi 4` のインストールが完了したら、`Visual Studio Shell 2013 Update 5` をインストールしてください。
 
     詳細は [Visual Studio 2013 のアップデート](http://solid.kmckk.com/doc/skit/current/tutorial/installation.html#visual-studio-2013) を参照してください。
