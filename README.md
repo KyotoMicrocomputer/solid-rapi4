@@ -35,3 +35,10 @@
 2. [プロジェクトを作成して実行](doc/build-and-run-newproject.md)
    - [プロジェクトの新規作成](doc/build-and-run-newproject.md#プロジェクトの新規作成)
    - [実行とデバッグ](doc/build-and-run-newproject.md#実行とデバッグ)
+
+-------
+
+## マニュアル
+
+- [制限事項](doc/limitations.md)
+
