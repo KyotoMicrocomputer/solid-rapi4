@@ -1,8 +1,8 @@
 ## ライセンスの有効化
 
-### キーの作成
+### SSH鍵ペアの作成
 
-ホストPCで以下のコマンドを実行し、キーを生成します。
+ホストPCで以下のコマンドを実行し、SSH鍵ペア (公開鍵と秘密鍵) を生成します。
 
 ```
 > ssh-keygen -t rsa
@@ -12,7 +12,7 @@ Enter passphrase (empty for no passphrase): # Enter
 Enter same passphrase again: # Enter
 ```
 
-### キーの転送と書き込み
+### SSH公開鍵の転送と書き込み
 
 SCPなどで Raspberry Pi 4 側に生成した `id_rsa.pub` を転送してください。
 
@@ -33,6 +33,6 @@ $ rm id_rsa.pub
 
 ソリューションを開くと、`Raspberry Pi Selector` が自動で起動します。
 `Search` ボタンを押すとネットワーク内に存在する Raspberry Pi 4 の IPアドレスリストが
-表示されるので、キーを書き込んだターゲットを選択して、`Connect` を押してください。
+表示されるので、SSH公開鍵を書き込んだターゲットを選択して、`Connect` を押してください。
 
    ![select-rpi4](img/rpi4-selector.png)
