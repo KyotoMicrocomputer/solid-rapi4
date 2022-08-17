@@ -12,6 +12,8 @@ Enter passphrase (empty for no passphrase): # Enter
 Enter same passphrase again: # Enter
 ```
 
+> **注意:** 鍵ペアが既に存在する場合、 `Overwrite (y/n)?` という確認メッセージが表示されます。この場合は新たに鍵ペアを生成する必要はありません。 `n` を入力して中止してください。 **鍵ペアを上書きしてしまった場合、元に戻す方法はありません。**
+
 ### SSH公開鍵の転送と書き込み
 
 生成した `id_rsa.pub` をSCPなどのプログラムを使用して Raspberry Pi 4 側に転送してください。
