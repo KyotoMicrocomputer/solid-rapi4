@@ -24,7 +24,7 @@
 3. [ライセンスの有効化](doc/license.md)
    - [キーの作成](doc/license.md#キーの作成)
    - [キーの転送と書き込み](doc/license.md#キーの転送と書き込み)
-   - [`Raspbery Pi Selector`の起動とライセンスの取得](doc/license.md#raspbery-pi-selectorの起動とライセンスの取得)
+   - [`Raspberry Pi Selector`の起動とライセンスの取得](doc/license.md#raspbery-pi-selectorの起動とライセンスの取得)
 
 ### プログラムのビルドと実行
 

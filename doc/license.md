@@ -29,9 +29,9 @@ $ cat id_rsa.pub >> .ssh/authorized_keys
 $ chmod 600 .ssh/authorized_keys
 $ rm id_rsa.pub
 ```
-### `Raspbery Pi Selector`の起動とライセンスの取得
+### `Raspberry Pi Selector`の起動とライセンスの取得
 
-ソリューションを開くと、`Raspbery Pi Selector` が自動で起動します。
+ソリューションを開くと、`Raspberry Pi Selector` が自動で起動します。
 `Search` ボタンを押すとネットワーク内に存在する Raspberry Pi 4 の IPアドレスリストが
 表示されるので、キーを書き込んだターゲットを選択して、`Connect` を押してください。
 
