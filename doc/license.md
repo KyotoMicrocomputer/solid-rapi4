@@ -14,7 +14,7 @@ Enter same passphrase again: # Enter
 
 ### SSH公開鍵の転送と書き込み
 
-SCPなどで Raspberry Pi 4 側に生成した `id_rsa.pub` を転送してください。
+生成した `id_rsa.pub` をSCPなどのプログラムを使用して Raspberry Pi 4 側に転送してください。
 
 ```
 > scp id_rsa.pub user@hostname:
