@@ -1,6 +1,6 @@
 ## SDカードの準備
 
-最新の [SOLID for Raspberry Pi4用SDカードイメージ](http://solid.kmckk.com/rpi4/image_2022-07-05-SOLID-RPI4-raspios-bullseye-lite.img.xz) をダウンロードし、[Raspberry Pi Imager](https://www.raspberrypi.com/software/) で書き込みます。
+最新の [SOLID for Raspberry Pi 4用SDカードイメージ](http://solid.kmckk.com/rpi4/image_2022-07-05-SOLID-RPI4-raspios-bullseye-lite.img.xz) をダウンロードし、[Raspberry Pi Imager](https://www.raspberrypi.com/software/) で書き込みます。
 
 ####  カスタムイメージの選択
 

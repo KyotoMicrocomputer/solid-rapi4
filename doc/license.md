@@ -14,13 +14,13 @@ Enter same passphrase again: # Enter
 
 ### キーの転送と書き込み
 
-SCPなどで Raspberry Pi4 側に生成した `id_rsa.pub` を転送してください。
+SCPなどで Raspberry Pi 4 側に生成した `id_rsa.pub` を転送してください。
 
 ```
 > scp id_rsa.pub user@hostname:
 ```
 
-Raspberry Pi4 側で `authorized_keys` に書き込みます。
+Raspberry Pi 4 側で `authorized_keys` に書き込みます。
 
 ```
 $ mkdir .ssh
