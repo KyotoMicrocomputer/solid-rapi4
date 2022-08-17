@@ -5,9 +5,9 @@
 ホストPCで以下のコマンドを実行し、SSH鍵ペア (公開鍵と秘密鍵) を生成します。
 
 ```
-> ssh-keygen -t rsa
+> ssh-keygen -t ed25519
 
-Enter file in which to save the key (C:\Users\<Username>/.ssh/id_rsa): # Enter
+Enter file in which to save the key (C:\Users\<Username>/.ssh/id_ed25519): # Enter
 Enter passphrase (empty for no passphrase): # Enter
 Enter same passphrase again: # Enter
 ```
@@ -16,10 +16,10 @@ Enter same passphrase again: # Enter
 
 ### SSH公開鍵の転送と書き込み
 
-生成した `id_rsa.pub` をSCPなどのプログラムを使用して Raspberry Pi 4 側に転送してください。
+生成した `id_ed25519.pub` をSCPなどのプログラムを使用して Raspberry Pi 4 側に転送してください。
 
 ```
-> scp id_rsa.pub user@hostname:
+> scp id_ed25519.pub user@hostname:
 ```
 
 Raspberry Pi 4 側で `authorized_keys` に書き込みます。
@@ -27,9 +27,9 @@ Raspberry Pi 4 側で `authorized_keys` に書き込みます。
 ```
 $ mkdir .ssh
 $ chmod 700 .ssh
-$ cat id_rsa.pub >> .ssh/authorized_keys
+$ cat id_ed25519.pub >> .ssh/authorized_keys
 $ chmod 600 .ssh/authorized_keys
-$ rm id_rsa.pub
+$ rm id_ed25519.pub
 ```
 ### `Raspberry Pi Selector`の起動とライセンスの取得
 
