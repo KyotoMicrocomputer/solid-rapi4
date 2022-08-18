@@ -43,3 +43,17 @@
 
 - [制限事項](doc/limitations.md)
 
+-------
+
+## リンク集
+
+- [SOLIDドキュメント](http://solid.kmckk.com/doc/skit/current/index.html)
+   - [SOLID-OS](http://solid.kmckk.com/doc/skit/current/os/index.html)
+   - [SOLID-Rust](http://solid.kmckk.com/doc/skit/current/solid_rust/rust.html) (Rustに関係するIDEの機能やSOLID固有の事項)
+- [Nightly Rustドキュメント](https://doc.rust-lang.org/nightly/) (英語)
+   - [標準ライブラリのAPIリファレンスマニュアル](https://doc.rust-lang.org/nightly/std/index.html) (英語)
+- [Rustの日本語ドキュメント](https://doc.rust-jp.rs/)
+- [ウィキブックス UNIX/Linux入門](https://ja.wikibooks.org/wiki/UNIX/Linux%E5%85%A5%E9%96%80)
+- [Raspberry Pi公式サイト](https://www.raspberrypi.com/) (英語)
+   - [BCM2711](https://www.raspberrypi.com/documentation/computers/processors.html#bcm2711) (Raspberry Pi 4 Model BのSoC) (英語)
+   - [The config.txt file](https://www.raspberrypi.com/documentation/computers/config_txt.html#what-is-config-txt) (ファームウェアの設定ファイル) (英語)
