@@ -18,6 +18,8 @@
 
  ![rpi-imager-settings](img/rpi-imager-settings.png)
 
+> **注意:** エクスプローラからイメージを選択して `Rasberry Pi Imager` を起動した場合、設定ボタンが表示されません ([raspberrypi/rpi-imager#451](https://github.com/raspberrypi/rpi-imager/issues/451))。
+
 #### イメージの書き込み
 
 「書き込む」ボタンをクリックしてイメージを書き込んでください。
