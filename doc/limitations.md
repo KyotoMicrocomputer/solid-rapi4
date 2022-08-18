@@ -27,6 +27,11 @@
 > **注意:** 動的生成資源数の上限は使用に支障が生じないよう多めに設定してありますが、将来のバージョンで予告なく変更される可能性があります。
 
 
+### 割込みハンドラ
+
+割込みハンドラはSOLID-OSが提供する [`SOLID_INTC_Register`][6] 関数を使用して登録してください。このシステムではRTOSカーネルで扱うものとして静的に[定義][7]された割込みラインは存在しないため `acre_isr` などの関数は機能しません。
+
+
 ## SOLID-IDE
 
 [アドレスサニタイザ][4]、[関数トレース][2]、および[ハードウェアトレース][3]などの使用できない機能があります。
@@ -57,3 +62,5 @@
 [3]: http://solid.kmckk.com/doc/skit/current/user_guide/hardware_trace.html
 [4]: http://solid.kmckk.com/doc/skit/current/user_guide/address_sanitizer.html
 [5]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id68
+[6]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
+[7]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id63
