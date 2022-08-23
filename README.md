@@ -29,13 +29,12 @@
 
 ### プログラムのビルドと実行
 
-1. [サンプルプログラムの実行](doc/running-sample-program.md)
+1. [既存プロジェクトの実行](doc/running-sample-program.md)
    - [c-blinky-ap804 のビルド](doc/running-sample-program.md#c-blinky-ap804-のビルド)
    - [c-blinky-ap804 の実行とデバッグ](doc/running-sample-program.md#c-blinky-ap804-の実行とデバッグ)
 
-2. [プロジェクトを作成して実行](doc/build-and-run-newproject.md)
-   - [プロジェクトの新規作成](doc/build-and-run-newproject.md#プロジェクトの新規作成)
-   - [実行とデバッグ](doc/build-and-run-newproject.md#実行とデバッグ)
+2. [新規プロジェクトの作成](doc/build-and-run-newproject.md)
+   - [プロジェクトの作成](doc/build-and-run-newproject.md#プロジェクトの作成)
 
 -------
 
