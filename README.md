@@ -35,7 +35,7 @@
 
 2. [新規プロジェクトの作成](doc/build-and-run-newproject.md)
    - [プロジェクトの作成](doc/build-and-run-newproject.md#プロジェクトの作成)
-   - [スタティックライブラリの追加](doc/add-static-library#スタティックライブラリの追加)
+   - [スタティックライブラリの追加](doc/add-static-library.md#スタティックライブラリの追加)
 
 -------
 
