@@ -25,7 +25,7 @@
 3. [ライセンスの有効化](doc/license.md)
    - [SSH鍵ペアの作成](doc/license.md#SSH鍵ペアの作成)
    - [SSH公開鍵の転送と書き込み](doc/license.md#SSH公開鍵の転送と書き込み)
-   - [`Raspberry Pi Selector`の起動とライセンスの取得](doc/license.md#raspbery-pi-selectorの起動とライセンスの取得)
+   - [`Raspberry Pi Selector`の起動とライセンスの取得](doc/license.md#raspberry-pi-selectorの起動とライセンスの取得)
 
 ### プログラムのビルドと実行
 
@@ -35,6 +35,7 @@
 
 2. [新規プロジェクトの作成](doc/build-and-run-newproject.md)
    - [プロジェクトの作成](doc/build-and-run-newproject.md#プロジェクトの作成)
+   - [スタティックライブラリの追加](doc/add-static-library#スタティックライブラリの追加)
 
 -------
 

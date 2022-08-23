@@ -3,7 +3,7 @@
 ### プロジェクトの作成
 
 メニューの **ファイル - 新規作成 - プロジェクト** を選択すると、**新しいプロジェクト** ウィンドウが開きます。
-プロジェクト名を設定し、PTProject内の **アプリケーション (Raspberry Pi 4)** を選択して **OK** ボタンを押下してください。
+プロジェクト名を設定し、PTProject の **アプリケーション (Raspberry Pi 4)** を選択して **OK** ボタンを押下してください。
 
  ![create-newproj](img/create-new-project.png)
 
@@ -11,4 +11,4 @@
 
  ![testapp-main-cpp](img/testapp-main-cpp.png)
 
-このプログラムをビルドして実行すると、シリアルコンソールに **hello, world** が表示されます。
+このプログラムをビルドして実行すると、シリアルコンソールに **hello, world** が出力されます。
