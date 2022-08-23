@@ -30,8 +30,8 @@
 ### プログラムのビルドと実行
 
 1. [既存プロジェクトの実行](doc/running-sample-program.md)
-   - [c-blinky-ap804 のビルド](doc/running-sample-program.md#c-blinky-ap804-のビルド)
-   - [c-blinky-ap804 の実行とデバッグ](doc/running-sample-program.md#c-blinky-ap804-の実行とデバッグ)
+   - [cpp-blinky-ap804 のビルド](doc/running-sample-program.md#cpp-blinky-ap804-のビルド)
+   - [cpp-blinky-ap804 の実行とデバッグ](doc/running-sample-program.md#cpp-blinky-ap804-の実行とデバッグ)
 
 2. [新規プロジェクトの作成](doc/build-and-run-newproject.md)
    - [プロジェクトの作成](doc/build-and-run-newproject.md#プロジェクトの作成)
