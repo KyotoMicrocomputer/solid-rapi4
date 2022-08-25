@@ -2,7 +2,7 @@
 
 **SOLID for Raspberry Pi 4**は[SOLID組込みソフトウェア開発プラットフォーム](https://solid.kmckk.com/SOLID/)を[Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)上で簡単にお試しいただけるソフトウェアパッケージです。Raspberry Pi OS + SOLID-OSを書き込んだSDカードからRaspberry Piをブートし、ホストPCにインストールした開発環境からネットワーク経由で接続するだけでベアメタル・RTOSアプリケーション開発が始められます。別のコアでLinuxが同時に動作しているため、RTOSとLinuxの連携を活かしたアプリケーションの開発方法を検討するのにも役立ちます。
 
-> 本レポジトリはSOLID for Raspberry Pi 4に関する情報を提供することを目的としています。付属のバグトラッカー ([Issuesタブ](https://github.com/KyotoMicrocomputer/solid-rapi4/issues)) は技術サポートフォーラムとして使用することができます。(弊社による返答・対応を保証するものではありません。あらかじめご了承ください。)
+> 本レポジトリはSOLID for Raspberry Pi 4に関する情報を提供することを目的としています。[Issues](https://github.com/KyotoMicrocomputer/solid-rapi4/issues) (付属のバグトラッカー) はバグ報告の場、[Discussions](https://github.com/KyotoMicrocomputer/solid-rapi4/discussions)は技術サポートフォーラムとして使用することができます。(弊社による返答・対応を保証するものではありません。あらかじめご了承ください。)
 
 ## 必要なもの
 
