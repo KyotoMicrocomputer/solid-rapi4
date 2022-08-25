@@ -16,7 +16,7 @@ Enter same passphrase again: # Enter
 
 ### SSH公開鍵の転送と書き込み
 
-生成した `id_ed25519.pub` をSCPなどのプログラムを使用して Raspberry Pi 4 側に転送してください。
+生成した `id_ed25519.pub` をSCPなどのプログラムを使用してRaspberry Pi 4側に転送してください。
 
 ```
 > scp id_ed25519.pub user@hostname:
@@ -31,10 +31,10 @@ $ cat id_ed25519.pub >> .ssh/authorized_keys
 $ chmod 600 .ssh/authorized_keys
 $ rm id_ed25519.pub
 ```
-### `Raspberry Pi Selector`の起動とライセンスの取得
+### Raspberry Pi Selectorの起動とライセンスの取得
 
-ソリューションを開くと、`Raspberry Pi Selector` が自動で起動します。
+ソリューションを開くと、Raspberry Pi Selectorが自動で起動します。
 `Search` ボタンを押すとネットワーク内に存在する Raspberry Pi 4 の IPアドレスリストが
-表示されるので、SSH公開鍵を書き込んだターゲットを選択して、`Connect` を押してください。
+表示されるので、SSH公開鍵を書き込んだターゲットを選択して、 **Connect** を押してください。
 
    ![select-rpi4](img/rpi4-selector.png)

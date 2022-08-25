@@ -9,7 +9,7 @@
 - [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) (4GBまたは8GB RAM)
 - 容量16GB以上のSDカード
 - ネットワーク接続
-  - `Raspberry Pi 4 Model B` とホストPCがネットワークで通信できる必要があります。
+  - Raspberry Pi 4 Model BとホストPCがネットワークで通信できる必要があります。
 - USB-UARTケーブル <!-- TODO: UARTの接続方法をどこかに記載する -->
 
 -------
@@ -31,13 +31,13 @@ SOLID for Raspberry Pi 4の基本的な使い方を手順を追って説明し�
 3. [ライセンスの有効化](doc/license.md)
    - [SSH鍵ペアの作成](doc/license.md#SSH鍵ペアの作成)
    - [SSH公開鍵の転送と書き込み](doc/license.md#SSH公開鍵の転送と書き込み)
-   - [`Raspberry Pi Selector`の起動とライセンスの取得](doc/license.md#raspberry-pi-selectorの起動とライセンスの取得)
+   - [Raspberry Pi Selectorの起動とライセンスの取得](doc/license.md#raspberry-pi-selectorの起動とライセンスの取得)
 
 ### プログラムのビルドと実行
 
 1. [既存プロジェクトの実行](doc/running-sample-program.md)
-   - [cpp-blinky-ap804 のビルド](doc/running-sample-program.md#cpp-blinky-ap804-のビルド)
-   - [cpp-blinky-ap804 の実行とデバッグ](doc/running-sample-program.md#cpp-blinky-ap804-の実行とデバッグ)
+   - [cpp-blinky-ap804のビルド](doc/running-sample-program.md#cpp-blinky-ap804-のビルド)
+   - [cpp-blinky-ap804の実行とデバッグ](doc/running-sample-program.md#cpp-blinky-ap804-の実行とデバッグ)
 
 2. [新規プロジェクトの作成](doc/build-and-run-newproject.md)
    - [プロジェクトの作成](doc/build-and-run-newproject.md#プロジェクトの作成)
