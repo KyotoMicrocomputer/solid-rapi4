@@ -61,7 +61,7 @@ SOLID for Raspberry Pi 4の仕様と留意事項について説明します。
 <!-- TODO: メモリマップ -->
 <!-- TODO: OS間通信 (SOLID Filesystem and Sockets are connected to Linux) -->
 
-- トラブルシューティング <!-- TODO -->
+- [トラブルシューティング](doc/troubleshooting.md)
 
 - [制限事項](doc/limitations.md)
 
