@@ -51,11 +51,7 @@ SOLID for Raspberry Pi 4の基本的な使い方を手順を追って説明し�
 
 SOLID for Raspberry Pi 4の仕様と留意事項について説明します。
 
-- Linuxシステム
-<!-- TODO: OSイメージ (The OS image is based on pi-gen) -->
-<!-- TODO: Ghostd -->
-<!-- TODO: Ghost CLI -->
-<!-- TODO: リモートアクセス -->
+- [Linuxシステム](doc/system-linux.md)
 
 - SOLID-OSシステム
 <!-- TODO: SOLID-OS (SOLID-OS with FMP3 kernel, user app runs on it, etc.) -->
