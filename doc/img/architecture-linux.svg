@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="795" height="418" version="1.1" viewBox="0 215 795 418" xmlns="http://www.w3.org/2000/svg">
+ <style>
+  .datapath-debug-user { display: none }
+  .shared-peripherals { display: none }
+  .intersects-host { display: none }
+  .inside-solid { opacity: 0.5 !important }
+
+  <!-- end of figure-specific customization -->
+.arrow-debug { fill:none;    marker-end:url(#b);    stroke:#ef8b54;    stroke-linecap:butt;    stroke-linejoin:miter;    stroke-width:4.758; }
+.inside-linux { opacity:1; }
+.inside-solid { opacity:1; }
+.intersects-host { opacity:; }
+.core-set circle { fill:#bcd7ab;  fill-opacity:0.4; }
+.core-set text { fill:#57a324;  font-size:2.5px; }
+svg { font-family:'Segoe UI',Arial,Helvetica,'DejaVu Sans',sans-serif;  letter-spacing:-0.01em;  line-height:1.15; }
+.arrow-plain { fill:none;    fill-opacity:1;    font-variation-settings:normal;    marker-end:url(#a);    stop-color:#000000;    stroke:#999999;    stroke-dasharray:none;    stroke-dashoffset:0;    stroke-linecap:butt;    stroke-linejoin:miter;    stroke-miterlimit:4;    stroke-opacity:1;    stroke-width:2.694; }
+.arrow-user { fill:none;    fill-opacity:1;    font-variation-settings:normal;    marker-end:url(#e);    stop-color:#000000;    stop-opacity:1;    stroke:#5489ef;    stroke-dasharray:12,6;    stroke-linecap:butt;    stroke-linejoin:miter;    stroke-miterlimit:4;    stroke-opacity:1;    stroke-width:4.758; }
+.target-os-frame { fill:#ffffff;    fill-opacity:1;    stroke:#bcd4af;    stroke-dasharray:none;    stroke-linecap:round;    stroke-linejoin:miter;    stroke-miterlimit:4;    stroke-opacity:1;    stroke-width:3.46; }</style>
+ <defs>
+  <marker id="e" overflow="visible" markerHeight="3.4181817" markerWidth="4.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="4" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="#5489ef" fill-rule="evenodd"/>
+  </marker>
+  <marker id="b" overflow="visible" markerHeight="3.4181817" markerWidth="4.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="4" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="#ef8b54" fill-rule="evenodd"/>
+  </marker>
+  <marker id="a" overflow="visible" markerHeight="3.4181817" markerWidth="4.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="4" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="#999" fill-rule="evenodd"/>
+  </marker>
+  <marker id="d" overflow="visible" markerHeight="3.4181817" markerWidth="4.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="4" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="#999" fill-rule="evenodd"/>
+  </marker>
+  <marker id="c" overflow="visible" markerHeight="3.4181817" markerWidth="4.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="4" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="#999" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <rect width="795" height="735" fill="#fff" marker-end="url(#b)" stop-color="#000000" style="font-variation-settings:normal"/>
+ <g>
+  <rect class="intersects-host" x="118.8" y="19.15" width="654.7" height="170.1" fill="#fff" stroke="#c2bdd0" stroke-linecap="round" stroke-width="3.46"/>
+  <text class="intersects-host" x="134.34129" y="52.379288" fill="#402c77" font-size="19.05px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="134.34129" y="52.379288" fill="#402c77" font-size="19.05px" stroke-width=".1028">SOLID-IDE</tspan></text>
+  <rect class="inside-linux target-os-frame" x="118.8" y="234.2" width="330" height="376.3"/>
+  <text class="inside-linux" x="134.34129" y="267.41949" fill="#2e610c" font-size="19.05px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="134.34129" y="267.41949" fill="#2e610c" font-size="19.05px" stroke-width=".1028">Linux</tspan></text>
+  <rect class="inside-solid target-os-frame" x="470.2" y="234.1" width="303.2" height="376.4"/>
+  <g>
+   <text class="inside-solid" x="485.90085" y="267.41949" fill="#2e610c" font-size="19.05px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="485.90085" y="267.41949" fill="#2e610c" font-size="19.05px" stroke-width=".1028">SOLID-OS</tspan></text>
+   <rect class="inside-linux" x="137.9" y="388.5" width="291.7" height="150.6" fill="#fff" stroke="#bcd7ab" stroke-linecap="round" stroke-width="2.4"/>
+   <text class="inside-linux" x="150.35037" y="417.82123" fill="#2e610c" font-size="19.05px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="150.35037" y="417.82123" fill="#2e610c" font-size="19.05px" stroke-width=".1028">Ghostd (Agent)</tspan></text>
+   <rect class="intersects-host" x="383.3" y="48.05" width="364" height="112.2" fill="#fff" stroke="#c2bdd0" stroke-linecap="round" stroke-width="2.4"/>
+   <text class="intersects-host" x="399.85373" y="79.64592" fill="#402c77" font-size="19.05px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="399.85373" y="79.64592" fill="#402c77" font-size="19.05px" stroke-width=".1028">Raspberry Pi Selector</tspan></text>
+  </g>
+ </g>
+ <g class="datapath-debug-user">
+  <path class="intersects-host  arrow-debug" d="m348.9 119 55.67-0.1641" fill-rule="evenodd"/>
+  <g>
+   <path class="intersects-host  arrow-debug" d="m431.2 139.6c-63.54 81.94-163.3 51.34-208.4 136.7" fill-rule="evenodd" stop-color="#000000" style="font-variation-settings:normal"/>
+   <g font-size="16.93px" font-weight="600" stroke-width=".1028">
+    <text class="intersects-host" x="273.82532" y="218.88152" fill="#ef8b54" text-align="end" text-anchor="end" style="line-height:1.25" xml:space="preserve"><tspan x="273.70532" y="218.88152" stroke-width=".1028">SSH</tspan></text>
+    <text class="inside-solid" x="679.86749" y="402.94232" fill="#ef8b54" style="line-height:0.95" xml:space="preserve"><tspan x="679.86749" y="402.94232">load &amp;</tspan><tspan x="679.86749" y="419.02896">execute</tspan></text>
+    <text class="inside-solid" x="747.47021" y="454.52756" fill="#5489ef" text-align="end" text-anchor="end" style="line-height:0.95" xml:space="preserve"><tspan x="747.47021" y="454.52756">SOLID</tspan><tspan x="747.35022" y="470.6142">CS API</tspan></text>
+    <text class="inside-solid" x="523.35913" y="478.62021" fill="#ef8b54" text-align="end" text-anchor="end" style="line-height:0.95" xml:space="preserve"><tspan x="523.35913" y="478.62021">SOLID</tspan><tspan x="523.23914" y="494.70685">CS API</tspan></text>
+   </g>
+  </g>
+  <g stroke-width=".1667">
+   <g class="inside-linux" transform="matrix(6 0 0 6 -1.814e-6 1.174e-5)">
+    <text x="32.018658" y="61.558239" fill="#ef8b54" font-size="2.822px" font-weight="600" stroke-width=".01713" text-align="end" text-anchor="end" style="line-height:1.25" xml:space="preserve"><tspan x="31.898659" y="61.558239" stroke-width=".01713">UDS</tspan></text>
+   </g>
+   <g transform="matrix(6 0 0 6 323 46.21)">
+    <rect x="13.75" y="58.74" width="9.948" height="3.68" fill="#fff" stop-color="#000000"/>
+    <text x="18.653828" y="61.558239" fill="#ef8b54" font-size="2.822px" font-weight="600" stroke-width=".01713" text-align="center" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="18.593828" y="61.558239" stroke-width=".01713">shmem</tspan></text>
+   </g>
+   <g transform="matrix(6 0 0 6 342.5 200.2)">
+    <rect x="13.75" y="58.74" width="9.948" height="3.68" fill="#fff" stop-color="#000000"/>
+    <text x="18.653828" y="61.558239" fill="#808080" font-size="2.822px" font-weight="600" stroke-width=".01713" text-align="center" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="18.593828" y="61.558239" stroke-width=".01713">OSCOM</tspan></text>
+   </g>
+  </g>
+  <text class="inside-linux" x="199.24022" y="443.81424" fill="#ef8b54" font-size="16.93px" font-weight="600" stroke-width=".1028" text-align="end" text-anchor="end" style="line-height:1.25" xml:space="preserve"><tspan x="199.12022" y="443.81424" stroke-width=".1028">UDS</tspan></text>
+  <path class="intersects-host  arrow-plain" d="m568.1 139.6c-121.9 123.4-220.1 50.69-247.1 137.9" fill-rule="evenodd"/>
+  <g>
+   <path class="inside-linux  arrow-debug" d="m189.9 326.2c-0.4321 36.24 40.53 54.17 71.62 66.81 13.74 5.587 20.96 19.81 26.81 32.88" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+   <path class="arrow-debug" d="m381.1 453c38.1-3.569 61.37-29.39 106-34.03" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+   <path class="inside-solid  arrow-debug" d="m521.7 559.8c-26.78-10.77-38.14-39.86-3.482-53.33" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+  </g>
+  <path class="inside-linux arrow-user" d="m289 526.5v37.5" style="-inkscape-stroke:none"/>
+  <path class="inside-solid arrow-user" d="m723.7 346.4c40.91 51.59 47.22 161.7 8.853 210.7" stroke-dashoffset=".6"/>
+  <path class="inside-linux  arrow-debug" d="m235 444.3c-44.9-7.058-52.86 30.16-26.94 55.87" stop-color="#000000"/>
+  <path class="inside-solid  arrow-debug" d="m663.9 480.3c10.51-32.64 8.994-94.44 0.4464-125.8" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+  <g transform="matrix(5.928 0 0 6 5.666 1.174e-5)" fill="none">
+   <path d="m69.09 84.44c8.424 0.0097 11.32 11.1 18.69 11.25" stroke="#fff" stroke-linecap="square" stroke-width="1.2"/>
+   <path d="m69.09 84.64c8.339 0.04329 11.2 11.1 18.69 11.25" stroke="#5489ef" stroke-dasharray="1, 0.5" stroke-dashoffset=".08333" stroke-width=".25"/>
+   <path d="m87.78 95.49c-7.252-0.1472-10.17-11.28-18.69-11.25" stroke="#ef8b54" stroke-width=".25"/>
+  </g>
+  <path class="arrow-debug" d="m224.6 705.4h37.16" stop-color="#000000" stroke-width="3" style="font-variation-settings:normal"/>
+  <text x="278.22433" y="710.31317" fill="#4d4d4d" font-size="16.93px" stroke-width=".1028" xml:space="preserve"><tspan x="278.22433" y="710.31317" fill="#4d4d4d" font-size="16.93px" stroke-width=".1028">Load and debug</tspan></text>
+  <path class="arrow-user" d="m444.1 705.4h37.16" stroke-dasharray="8, 4" stroke-dashoffset=".6" stroke-width="3"/>
+  <text x="497.72598" y="710.31317" fill="#4d4d4d" font-size="16.93px" stroke-width=".1028" xml:space="preserve"><tspan x="497.72598" y="710.31317" fill="#4d4d4d" font-size="16.93px" stroke-width=".1028">API access by user code</tspan></text>
+  <path class="inside-linux arrow-plain " d="m297.8 372.9c13.79 19.31 18.46 36.61 18.93 54.26" fill="none" marker-end="url(#d)" stop-color="#000000" stroke="#999" style="font-variation-settings:normal"/>
+  <path class="inside-linux arrow-plain " d="m369.7 324.9c-1.265 32.55-3.869 65.9-25.24 103.5" fill="none" marker-end="url(#d)" stop-color="#000000" stroke="#999" style="font-variation-settings:normal"/>
+ </g>
+ <g class="datapath-plain">
+  <path class="intersects-host arrow-plain" d="m348.9 119 55.67-0.1641" fill-rule="evenodd"/>
+  <path class="intersects-host arrow-plain" d="m431.2 139.6c-63.54 81.94-163.3 51.34-208.4 136.7" fill-rule="evenodd" style="-inkscape-stroke:none"/>
+  <g fill="#808080">
+   <g font-size="16.93px" font-weight="600" stroke-width=".1028">
+    <text class="intersects-host " x="273.82532" y="218.88152" stop-color="#000000" text-align="end" text-anchor="end" style="font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="273.70532" y="218.88152" stroke-width=".1028">SSH</tspan></text>
+    <text class="intersects-host " x="483.46545" y="218.88152" stop-color="#000000" style="font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="483.46545" y="218.88152" stroke-width=".1028">HTTPU</tspan></text>
+    <text class="inside-solid" x="679.86749" y="402.94232" stop-color="#000000" style="font-variation-settings:normal;line-height:0.95" xml:space="preserve"><tspan x="679.86749" y="402.94232">load &amp;</tspan><tspan x="679.86749" y="419.02896">execute</tspan></text>
+    <text class="inside-solid" x="747.47021" y="454.52756" stop-color="#000000" text-align="end" text-anchor="end" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:0.95" xml:space="preserve"><tspan x="747.47021" y="454.52756">SOLID</tspan><tspan x="747.35022" y="470.6142">CS API</tspan></text>
+    <text class="inside-solid" x="523.35913" y="478.62021" stop-color="#000000" text-align="end" text-anchor="end" style="font-variation-settings:normal;line-height:0.95" xml:space="preserve"><tspan x="523.35913" y="478.62021">SOLID</tspan><tspan x="523.23914" y="494.70685">CS API</tspan></text>
+   </g>
+   <g class="inside-linux" transform="matrix(6 0 0 6 -1.814e-6 1.174e-5)" stop-color="#000000" stroke-width=".01713" style="font-variation-settings:normal">
+    <text x="32.018658" y="61.558239" fill="#808080" font-size="2.822px" font-weight="600" stop-color="#000000" stroke-width=".01713" text-align="end" text-anchor="end" style="font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="31.898659" y="61.558239" stroke-width=".01713">UDS</tspan></text>
+   </g>
+  </g>
+  <g transform="matrix(6 0 0 6 323 46.21)" stroke-width=".1667">
+   <rect x="13.75" y="58.74" width="9.948" height="3.68" fill="#fff" stop-color="#000000"/>
+   <text x="18.653828" y="61.558239" fill="#808080" font-size="2.822px" font-weight="600" stop-color="#000000" stroke-width=".01713" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="18.593828" y="61.558239" stroke-width=".01713">shmem</tspan></text>
+  </g>
+  <g transform="matrix(6 0 0 6 342.5 200.2)" stroke-width=".1667">
+   <rect x="13.75" y="58.74" width="9.948" height="3.68" fill="#fff" stop-color="#000000"/>
+   <text x="18.653828" y="61.558239" fill="#808080" font-size="2.822px" font-weight="600" stroke-width=".01713" text-align="center" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="18.593828" y="61.558239" stroke-width=".01713">OSCOM</tspan></text>
+  </g>
+  <text class="inside-linux" x="199.24022" y="443.81424" fill="#808080" font-size="16.93px" font-weight="600" stop-color="#000000" stroke-width=".1028" text-align="end" text-anchor="end" style="font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="199.12022" y="443.81424" stroke-width=".1028">UDS</tspan></text>
+  <path class="intersects-host arrow-plain" d="m568.1 139.6c-121.9 123.4-220.1 50.69-247.1 137.9" fill-rule="evenodd"/>
+  <path class="inside-linux arrow-plain" d="m189.9 326.2c-0.4321 36.24 40.53 54.17 71.62 66.81 13.74 5.587 20.96 19.81 26.81 32.88" style="-inkscape-stroke:none"/>
+  <path class="arrow-plain" d="m381.1 453c38.1-3.569 61.37-29.39 106-34.03" style="-inkscape-stroke:none"/>
+  <path class="inside-solid arrow-plain" d="m521.7 559.8c-26.78-10.77-38.14-39.86-3.482-53.33" style="-inkscape-stroke:none"/>
+  <path class="inside-linux arrow-plain" d="m289 526.5v37.5" style="-inkscape-stroke:none"/>
+  <path class="inside-solid arrow-plain" d="m723.7 346.4c40.91 51.59 47.22 161.7 8.853 210.7" style="-inkscape-stroke:none"/>
+  <path class="inside-linux arrow-plain" d="m235 444.3c-44.9-7.058-52.86 30.16-26.94 55.87" style="-inkscape-stroke:none"/>
+  <path class="inside-solid arrow-plain" d="m663.9 480.3c10.51-32.64 8.994-94.44 0.4464-125.8" style="-inkscape-stroke:none"/>
+  <g fill="none" stroke="#999">
+   <g transform="matrix(5.928 0 0 6 5.666 1.174e-5)" marker-end="url(#a)" marker-start="url(#a)" stop-color="#000000" stroke-width=".4524" style="font-variation-settings:normal">
+    <path d="m69.76 84.44c8.424 0.0097 9.969 11.1 17.34 11.25" fill="none" marker-end="url(#a)" marker-start="url(#a)" stop-color="#000000" stroke="#999" stroke-width=".45258" style="font-variation-settings:normal"/>
+   </g>
+   <path class="inside-linux arrow-plain " d="m297.8 372.9c13.79 19.31 18.46 36.61 18.93 54.26" marker-end="url(#c)" stop-color="#000000" style="font-variation-settings:normal"/>
+   <path class="inside-linux arrow-plain " d="m369.7 324.9c-1.265 32.55-3.869 65.9-25.24 103.5" marker-end="url(#c)" stop-color="#000000" style="font-variation-settings:normal"/>
+  </g>
+ </g>
+ <text class="intersects-host" x="21.331543" y="44.324005" fill="#846ac7" font-size="25.4px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="21.331543" y="44.324005" fill="#846ac7" font-size="25.4px" stroke-width=".1028">Host</tspan></text>
+ <text x="21.331543" y="259.987" fill="#57a324" font-size="25.4px" stroke-width=".1028" style="line-height:1.25" xml:space="preserve"><tspan x="21.331543" y="259.987" fill="#57a324" font-size="25.4px" stroke-width=".1028">Target</tspan></text>
+ <g stroke-width=".1667">
+  <g class="core-set  inside-linux" transform="matrix(6 0 0 6 20.9 2.066)">
+   <text x="60.136379" y="44.023884" stroke-width=".01713" text-align="end" text-anchor="end" style="line-height:1.25" xml:space="preserve"><tspan x="60.01638" y="44.023884" stroke-width=".01713">CORE</tspan></text>
+   <g stroke-width=".1667">
+    <circle cx="62.88" cy="43.1" r="1.561"/>
+    <text x="62.876152" y="43.99268" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="62.816151" y="43.99268" stroke-width=".1667">2</tspan></text>
+   </g>
+   <g transform="translate(3.941)" stroke-width=".1667">
+    <circle cx="62.88" cy="43.1" r="1.561"/>
+    <text x="62.892632" y="43.977421" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="62.83263" y="43.977421" stroke-width=".1667">3</tspan></text>
+   </g>
+  </g>
+  <g id="f" class="intersects-host" transform="matrix(6 0 0 6 -37.48 -76.02)">
+   <rect x="31.36" y="27.49" width="32.94" height="10.03" fill="#e3e1ea"/>
+   <text x="47.982609" y="31.638079" fill="#402c77" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.982609" y="31.638079" text-align="center">PARTNER</tspan><tspan x="47.922607" y="35.28933" text-align="center">Monitor Debugger</tspan></text>
+  </g>
+  <g id="g" class="intersects-host" transform="matrix(6 0 0 6 192 -63.69)">
+   <rect x="36.52" y="27.49" width="22.63" height="5.869" fill="#e3e1ea"/>
+   <text x="47.982609" y="31.638079" fill="#402c77" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.922607" y="31.638079" fill="#402c77" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">SSH Client</tspan></text>
+  </g>
+  <g class="intersects-host" transform="matrix(6 0 0 6 356.2 -63.69)">
+   <rect x="35.11" y="27.49" width="25.43" height="5.869" fill="#e3e1ea"/>
+   <text x="47.982609" y="31.638079" fill="#402c77" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.922607" y="31.638079" fill="#402c77" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">Beacon Client</tspan></text>
+  </g>
+  <g id="h" class="inside-linux" transform="matrix(6 0 0 6 -75.89 120.8)">
+   <rect x="36.52" y="27.49" width="22.63" height="5.869" fill="#e3ecde"/>
+   <text x="47.982609" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.922607" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">SSH Server</tspan></text>
+  </g>
+  <g id="i" class="inside-linux" transform="matrix(6 0 0 6 69.41 120.8)">
+   <rect x="36.52" y="27.49" width="22.63" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">Ghost Beacon</tspan></text>
+  </g>
+  <g id="j" class="inside-linux" transform="matrix(6 0 0 6 21.16 270.2)">
+   <rect x="36.52" y="27.49" width="22.63" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">GFRPC Server</tspan></text>
+  </g>
+  <g id="k" class="inside-linux" transform="matrix(6 0 0 6 29.34 322.5)">
+   <rect x="31.56" y="27.49" width="32.53" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">OSCOM RPC Server</tspan></text>
+  </g>
+  <g id="l" class="inside-solid" transform="matrix(6 0 0 6 338.1 386.4)">
+   <rect x="31.56" y="27.49" width="32.53" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">OSCOM RPC Client</tspan></text>
+  </g>
+  <g class="inside-solid" transform="matrix(6 0 0 6 338.1 320.1)">
+   <rect x="31.56" y="27.49" width="32.53" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">Ghost (App Host)</tspan></text>
+  </g>
+  <g id="m" class="shared-peripherals" transform="matrix(6 0 0 6 -68.27 471.2)">
+   <rect x="30.88" y="27.49" width="109.7" height="5.869" fill="#e3ecde"/>
+   <text x="85.714211" y="31.638079" fill="#2e610c" font-size="3.528px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="85.654213" y="31.638079" fill="#2e610c" stroke-width=".01713" text-align="center" text-anchor="middle"><tspan font-size="3.175px">Shared Peripherals</tspan><tspan font-size="2.822px"> </tspan><tspan font-size="2.469px">(e.g., interrupt controller, ARM mailboxes)</tspan></tspan></text>
+  </g>
+  <g id="n" class="inside-solid" transform="matrix(6 0 0 6 334.9 143.2)">
+   <rect x="31.56" y="27.49" width="32.53" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">User Application</tspan></text>
+  </g>
+  <g id="o" class="inside-solid" transform="matrix(6 0 0 6 291.3 236.3)">
+   <rect x="34.24" y="27.49" width="27.18" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">Debug Monitor</tspan></text>
+  </g>
+  <g id="p" class="inside-linux" transform="matrix(6 0 0 6 -5.68 169)">
+   <rect x="38.45" y="27.49" width="18.76" height="5.869" fill="#e3ecde"/>
+   <text x="47.833897" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.773895" y="31.638079" fill="#2e610c" font-size="3.175px" stroke-width=".01713" text-align="center" text-anchor="middle">Ghost CLI</tspan></text>
+  </g>
+  <g class="core-set  inside-solid" transform="matrix(6 0 0 6 345.7 2.066)">
+   <text x="60.136379" y="44.023884" fill="#57a324" font-size="2.5px" stroke-width=".01713" text-align="end" text-anchor="end" style="line-height:1.25" xml:space="preserve"><tspan x="60.01638" y="44.023884" stroke-width=".01713">CORE</tspan></text>
+   <g stroke-width=".1667">
+    <circle cx="62.88" cy="43.1" r="1.561" fill="#bcd7ab" fill-opacity=".4"/>
+    <text x="62.864067" y="43.971306" fill="#57a324" font-size="2.5px" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="62.804066" y="43.971306" stroke-width=".1667">0</tspan></text>
+   </g>
+   <g transform="translate(3.941)" stroke-width=".1667">
+    <circle cx="62.88" cy="43.1" r="1.561" fill="#bcd7ab" fill-opacity=".4"/>
+    <text x="62.8922" y="43.997562" fill="#57a324" font-size="2.5px" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="62.832199" y="43.997562" stroke-width=".1667">1</tspan></text>
+   </g>
+  </g>
+ </g>
+ <text class="inside-linux" x="284.40851" y="586.38525" fill="#2e610c" font-size="19.05px" stroke-width=".1028" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="284.34851" y="586.38525" fill="#2e610c" font-size="19.05px" stroke-width=".1028" text-align="center" text-anchor="middle">Linux filesystem and other programs</tspan></text>
+</svg>
