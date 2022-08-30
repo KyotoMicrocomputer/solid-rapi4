@@ -53,11 +53,7 @@ SOLID for Raspberry Pi 4の仕様と留意事項について説明します。
 
 - [Linuxシステム](doc/system-linux.md)
 
-- SOLID-OSシステム
-<!-- TODO: SOLID-OS (SOLID-OS with FMP3 kernel, user app runs on it, etc.) -->
-<!-- TODO: ログ出力 -->
-<!-- TODO: メモリマップ -->
-<!-- TODO: OS間通信 (SOLID Filesystem and Sockets are connected to Linux) -->
+- [SOLID-OSシステム](doc/system-rtos.md)
 
 - [トラブルシューティング](doc/troubleshooting.md)
 
