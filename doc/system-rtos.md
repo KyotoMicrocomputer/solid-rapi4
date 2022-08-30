@@ -33,6 +33,8 @@ SOLID[ファイルシステムAPI][10]ではマウントポイント `\OSCOM_FS`
 
 > **注意:** パス区切り文字は[Windows][12]と同様にバックスラッシュ (ASCII 92, U+005C, `\`, `"\\"`) が標準です。
 
+[制限事項#OS間通信 (OSCOM RPC)](limitations.md#os間通信-oscom-rpc) も参照してください。
+
 
 ## 割込み処理
 
