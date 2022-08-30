@@ -89,4 +89,4 @@ SambaはWindowsの「共有フォルダー」のプロトコルの実装です�
 
 このOSイメージでは `/boot/config.txt` の [`enable_uart`](https://www.raspberrypi.com/documentation/computers/config_txt.html#enable_uart) がデフォルトで有効になっているため、UART (GPIO 14/15) はLinuxコンソールとして使用できます。ボーレートは115200に設定されており、デフォルト文字セットはUTF-8です。
 
-> **注意:** SOLID-OSの出力も同じUARTポートを使用するため、同時に出力が行われると出力内容が壊れることがあります。
+> **注意:** [SOLID-OSの出力](system-rtos.md#ログ出力)も同じUARTポートを使用するため、同時に出力が行われると出力内容が壊れることがあります。
