@@ -7,7 +7,7 @@
 <details>
 <summary><b>手元にあるRaspberry Pi 4 Model Bのメモリサイズが分からない。</b></summary>
 
-Raspberry Pi 4上で `/proc/cpuinfo` から[モデルリビジョンコード][1]を取得して判別できます。2022年の時点では以下の規則に従っているようです。
+Raspberry Pi 4上で `/proc/cpuinfo` から[モデルリビジョンコード][4]を取得して判別できます。2022年の時点では以下の規則に従っているようです。
 
 | リビジョンコード | モデル | メモリサイズ |
 | ---------------- | ------ | ------------ |
@@ -49,8 +49,6 @@ Raspberry Piがハングアップしていないか確認してください。Li
 Raspberry PiがUDPポート51590のパケットが受信できるように設定してください。
 
 </details>
-
-[1]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#new-style-revision-codes-in-use
 
 ## ビルド
 
@@ -173,4 +171,4 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 [1]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
 [2]: https://en.wikipedia.org/wiki/Ethernet_flow_control#Pause_frame
 [3]: http://solid.kmckk.com/doc/skit/current/troubleshooting/rust-path-length.html
-
+[4]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#new-style-revision-codes-in-use
