@@ -52,6 +52,15 @@ Raspberry PiがUDPポート51590のパケットが受信できるように設定
 
 [1]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#new-style-revision-codes-in-use
 
+## ビルド
+
+<details>
+<summary><b>Rustプロジェクトのビルドが "No such file or directory" エラーで失敗する</b></summary>
+
+Rust MinGWツールチェーンの[制約][3]です。ソリューションを非ASCII文字を含まない短いパスの場所に移動して再度お試しください。ソリューションの完全パスが110文字以内に収まるようにすることを推奨します。
+
+</details>
+
 ## デバッグ
 
 <details>
@@ -163,3 +172,5 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 
 [1]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
 [2]: https://en.wikipedia.org/wiki/Ethernet_flow_control#Pause_frame
+[3]: http://solid.kmckk.com/doc/skit/current/troubleshooting/rust-path-length.html
+
