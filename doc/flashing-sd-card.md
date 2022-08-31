@@ -1,14 +1,14 @@
-## SDカードの準備
+# SDカードの準備
 
 最新の[SOLID for Raspberry Pi 4用SDカードイメージ](http://solid.kmckk.com/rpi4/image_2022-07-05-SOLID-RPI4-raspios-bullseye-lite.img.xz)をダウンロードし、[Raspberry Pi Imager](https://www.raspberrypi.com/software/)で書き込みます。
 
-#### カスタムイメージの選択
+## カスタムイメージの選択
 
 Raspberry Pi Imagerを起動し、OSの選択画面で **カスタムイメージを使う** を選択し、ダウンロードしたSDカードイメージ (`image_yyyy-mm-dd-SOLID-RPI4-raspios-bullseye-lite.img.xz`) を指定します。
 
  ![rpi-imager-select](img/rpi-imager-select-os.png)
 
-#### 設定
+## 設定
 
 ウィンドウ右下の設定ボタンをクリックするか <kbd>Ctrl+Shift+X</kbd> を押し、 **詳細な設定** を開き、以下の項目を設定してください。
 
@@ -20,11 +20,11 @@ Raspberry Pi Imagerを起動し、OSの選択画面で **カスタムイメー�
 
 > **注意:** エクスプローラからイメージを選択しRasberry Pi Imagerを起動した場合、設定ボタンが表示されません ([raspberrypi/rpi-imager#451](https://github.com/raspberrypi/rpi-imager/issues/451))。
 
-#### イメージの書き込み
+## イメージの書き込み
 
 **書き込む** ボタンをクリックしてイメージを書き込んでください。
 
-#### 起動
+## 起動
 
 書き込んだSDカードをRaspberry Pi 4のSDカードスロットに挿入し、必要に応じてモニタやキーボードなどを接続し、電源を接続してください。初回起動時は初期設定のために2回ほど自動的に再起動が行われます。
 

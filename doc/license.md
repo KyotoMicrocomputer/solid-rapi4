@@ -1,6 +1,6 @@
-## ライセンスの有効化
+# ライセンスの有効化
 
-### SSH鍵ペアの作成
+## SSH鍵ペアの作成
 
 ホストPCで以下のコマンドを実行し、SSH鍵ペア (公開鍵と秘密鍵) を生成します。
 
@@ -14,7 +14,7 @@ Enter same passphrase again: # Enter
 
 > **注意:** 鍵ペアが既に存在する場合、 `Overwrite (y/n)?` という確認メッセージが表示されます。この場合は新たに鍵ペアを生成する必要はありません。 `n` を入力して中止してください。 **鍵ペアを上書きしてしまった場合、元に戻す方法はありません。**
 
-### SSH公開鍵の転送と書き込み
+## SSH公開鍵の転送と書き込み
 
 生成した `id_ed25519.pub` をSCPなどのプログラムを使用してRaspberry Pi 4側に転送してください。
 
@@ -31,7 +31,7 @@ $ cat id_ed25519.pub >> .ssh/authorized_keys
 $ chmod 600 .ssh/authorized_keys
 $ rm id_ed25519.pub
 ```
-### Raspberry Pi Selectorの起動とライセンスの取得
+## Raspberry Pi Selectorの起動とライセンスの取得
 
 ソリューションを開くと、Raspberry Pi Selectorが自動で起動します。
 **Search** を押すとネットワーク内に存在するRaspberry Pi 4のリストが表示されるので、IPアドレスやホスト名 (HN) などを確認し、SSH公開鍵を書き込んだターゲットを選択して **Save** を押してください。
