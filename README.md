@@ -25,6 +25,7 @@ SOLID for Raspberry Pi 4の基本的な使い方を手順を追って説明し�
    - [カスタムイメージの選択](doc/flashing-sd-card.md#カスタムイメージの選択)
    - [設定](doc/flashing-sd-card.md#設定)
    - [イメージの書き込み](doc/flashing-sd-card.md#イメージの書き込み)
+   - [起動](doc/flashing-sd-card.md#起動)
 
 2. [開発環境のセットアップ](doc/setup-devenv.md)
    - [インストーラのダウンロード](doc/setup-devenv.md#インストーラのダウンロード)
