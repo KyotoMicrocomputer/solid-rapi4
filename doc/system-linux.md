@@ -57,7 +57,7 @@ $ ghost version
 
 Raspberry Pi SelectorからRaspberry Piに接続するためには [ライセンスの有効化](./license.md) で説明しているようにSSHの設定が必須なため、開発環境からリモートログインするにはSSHが最も自然な方法です。
 
-SSHを使用してリモートログインするには以下のコマンドを実行します。 `pi` と `raspberrypi` はそれぞれ[イメージ書き込み時](./flashing-sd-card.md)にRaspberry Pi Imagerで指定したホスト名とユーザー名で置き換えてください。
+SSHを使用してリモートログインするには以下のコマンドを実行します。 `pi` と `raspberrypi` はそれぞれ[イメージ書き込み時](./flashing-sd-card.md)にRaspberry Pi Imagerで指定したユーザー名とホスト名で置き換えてください。
 
 ```pwsh
 > ssh pi@raspberrypi
