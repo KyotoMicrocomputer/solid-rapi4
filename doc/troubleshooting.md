@@ -79,6 +79,13 @@ $ sudo systemctl restart ghostd
 
 </details>
 
+<details>
+<summary><b>ステップ実行が非常に遅い。</b></summary>
+
+[RTOSビューア][5]が表示中の場合、実行を停止するたびにウィンドウの内容を更新するため、 ステップ実行などの動作が極端に遅くなります。ステップ実行を行う際は非表示にすることをお勧めします。
+
+</details>
+
 ## アプリケーション開発
 
 <details>
@@ -172,3 +179,4 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 [2]: https://en.wikipedia.org/wiki/Ethernet_flow_control#Pause_frame
 [3]: http://solid.kmckk.com/doc/skit/current/troubleshooting/rust-path-length.html
 [4]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#new-style-revision-codes-in-use
+[5]: http://solid.kmckk.com/doc/skit/current/user_guide/rtos_viewer.html
