@@ -39,7 +39,7 @@ TOPPERSカーネルのシステムログ機能は使用できません。
 
 ## SOLID-IDE
 
-[アドレスサニタイザ][4]、[関数トレース][2]、および[ハードウェアトレース][3]などの使用できない機能があります。
+[アドレスサニタイザ][4]、[関数トレース][2]、[コードカバレッジ][8]、および[ハードウェアトレース][3]などの使用できない機能があります。 <!-- RM #3371 #3374 -->
 
 メモリマップは固定です。
 
@@ -80,3 +80,4 @@ TOPPERSカーネルのシステムログ機能は使用できません。
 [5]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id68
 [6]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
 [7]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id63
+[8]: http://solid.kmckk.com/doc/skit/current/user_guide/code_coverage.html
