@@ -49,6 +49,12 @@ SOLID[ログ出力API][3] (e.g., `SOLID_LOG_printf`) はBCM2711 Mini UART (GPIO 
 
 > **注意:** [Linuxシリアルコンソール](system-linux.md#UARTシリアルコンソール)も同じUARTポートを使用するため、同時に出力が行われると出力内容が壊れることがあります。
 
+ログ出力を見るためにはUSB-UARTケーブル等が必要です。Windows向けのシリアル端末プログラムとしてはTera TermやPuTTYなどが定番です。SOLID-IDEの[内蔵ターミナル][13]もシリアルポートに対応しています。
+
+![](img/ide-terminal-config.png)
+
+<!-- TODO: 別のUARTポートに接続すればRaspberry Pi OS経由で出力が見れるのでは? -->
+
 
 ## BSPデバイスドライバ
 
@@ -91,3 +97,5 @@ SOLID-OSで使用するRAMの物理アドレス範囲はdevice tree overlay `/bo
 [10]: http://solid.kmckk.com/doc/skit/current/os/filesystem.html
 [11]: http://solid.kmckk.com/doc/skit/current/user_guide/event_tracker.html
 [12]: https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file?redirectedfrom=MSDN#naming-conventions
+[13]: http://solid.kmckk.com/doc/skit/current/user_guide/terminal.html
+
