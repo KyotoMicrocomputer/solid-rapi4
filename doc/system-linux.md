@@ -27,7 +27,7 @@ kernel=ghost-rpi4.bin.gz
 
 ## Ghostd
 
-**Ghostd**はモニタデバッガからデバッグモニタへの通信やSOLIDアプリケーションから行われるファイルシステム・ネットワークAPIコールを仲介するデーモンプログラムです。これはsystemd unit `ghostd.service` として登録されており、 `systemctl restart ghostd` などのコマンドで動作を制御することができます。
+**Ghostd**はモニタデバッガからデバッグモニタへの通信やSOLIDアプリケーションから[OS間通信機構](system-rtos.md#os間通信-oscom-rpc)を介して行われるファイルシステム・ネットワークAPIコールを仲介するデーモンプログラムです。これはsystemd unit `ghostd.service` として登録されており、 `systemctl restart ghostd` などのコマンドで動作を制御することができます。
 
 設定ファイルは `/etc/ghostd.toml` にあり、ファイルシステム・ネットワークAPIコールをLinuシステムコールに変換して処理するサーバー (OSCOM RPCサーバー) をどのユーザ・グループの権限で起動するか (`rpc.{user,group}`) などを指定できます。
 
