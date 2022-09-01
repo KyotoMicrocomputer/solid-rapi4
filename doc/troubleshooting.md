@@ -53,7 +53,7 @@ Raspberry PiがUDPポート51590のパケットが受信できるように設定
 ## ビルド
 
 <details>
-<summary><b>Rustプロジェクトのビルドが "No such file or directory" エラーで失敗する</b></summary>
+<summary><b>Rustプロジェクトのビルドが "No such file or directory" エラーで失敗する。</b></summary>
 
 Rust MinGWツールチェーンの[制約][3]です。ソリューションを非ASCII文字を含まない短いパスの場所に移動して再度お試しください。ソリューションの完全パスが110文字以内に収まるようにすることを推奨します。
 
@@ -150,7 +150,7 @@ std::thread::Builder::new()
 ## Linux
 
 <details>
-<summary><b>実行可能ファイルを起動すると "そのようなファイルはありません" 旨のエラーが出て失敗する</b></summary>
+<summary><b>実行可能ファイルを起動すると "そのようなファイルはありません" 旨のエラーが出て失敗する。</b></summary>
 
 `file` コマンドを使用して実行可能ファイルのターゲットCPUアーキテクチャを確認してください。SOLID for Raspberry Pi 4のOSイメージのRaspberry Pi OSは **64-bit Arm (AArch64)** バージョンを使用しており、32-bit Arm向けにビルドされたプログラムは初期状態では起動できない場合があります。
 
