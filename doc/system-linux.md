@@ -12,7 +12,7 @@ LinuxシステムのOSイメージはRaspberry Pi OSの公式イメージ作成�
 
 ## カーネルイメージ
 
-`raspberrypi-kernel` パッケージが提供する公式サポートされたLinuxカーネルを使用しますが、イメージにパッチを当ててブート手順を追加することでCPU0/1で[SOLID-OS](system-rtos.md)を最初に起動するようにしています。Linuxカーネルは残りのCPU2/3で起動します。
+`raspberrypi-kernel` パッケージが提供する公式サポートされたLinuxカーネルを使用しますが、イメージにパッチを当ててブート段階を追加することでCPU0/1で[SOLID-OS](system-rtos.md)を最初に起動するようにしています。Linuxカーネルは残りのCPU2/3で起動します。
 
 パッチは `ghost-rpi4` パッケージが登録する `/etc/kernel/postinst.d` フックによってLinuxカーネルが更新されるたびに自動的に再適用されます。 `/boot/config.txt` で次のように指定することでパッチ済みカーネルからブートしています。
 
