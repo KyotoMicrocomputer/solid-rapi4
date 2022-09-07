@@ -33,6 +33,9 @@ $ cat id_ed25519.pub >> .ssh/authorized_keys
 $ chmod 600 .ssh/authorized_keys
 $ rm id_ed25519.pub
 ```
+
+> Raspberry Pi Selectorは非対話的な認証方法のみをサポートしているため、公開鍵認証の設定が必要です。
+
 ## Raspberry Pi Selectorの起動とライセンスの取得
 
 ソリューションを開くと、Raspberry Pi Selectorが自動で起動します。
