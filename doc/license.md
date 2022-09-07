@@ -16,13 +16,13 @@ Enter same passphrase again: # Enter
 
 ## SSH公開鍵の転送と書き込み
 
-生成した `id_ed25519.pub` をSCPなどのプログラムを使用してRaspberry Pi 4側に転送してください。
+生成した `id_ed25519.pub` を[SCP](system-linux.md#secure-copy)などのプログラムを使用してRaspberry Pi 4側に転送してください。
 
 ```
 > scp id_ed25519.pub user@hostname:
 ```
 
-Raspberry Pi 4側で `authorized_keys` に書き込みます。
+Raspberry Pi 4に[SSH](system-linux.md#sshリモートログイン)でリモートログインし、転送した `id_ed25519.pub` を `authorized_keys` ファイルに追加してください。
 
 ```
 $ mkdir .ssh
