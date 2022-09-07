@@ -25,6 +25,8 @@ Enter same passphrase again: # Enter
 Raspberry Pi 4に[SSH](system-linux.md#sshリモートログイン)でリモートログインし、転送した `id_ed25519.pub` を `authorized_keys` ファイルに追加してください。
 
 ```
+> ssh user@hostname
+
 $ mkdir .ssh
 $ chmod 700 .ssh
 $ cat id_ed25519.pub >> .ssh/authorized_keys
