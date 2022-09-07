@@ -63,6 +63,27 @@ SSHを使用してリモートログインするには以下のコマンドを�
 > ssh pi@raspberrypi
 ```
 
+初回接続時は以下のような確認メッセージが表示されます。`yes` と入力して続行してください。
+
+```
+The authenticity of host 'raspberrypi (192.168.1.2)' can't be established.
+ED25519 key fingerprint is SHA256:qdCWQ6RypCF0acEqq4Lt26ykkImti+5ZowYNu8JnGSk.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+> 上の確認メッセージから続行すると、サーバー固有の識別子がホスト名と対応付けられて `%USERPROFILE%\.ssh\known_hosts` テキストファイルに記録されます。
+
+公開鍵認証が[設定](license.md#ssh公開鍵の転送と書き込み)済みで成功した場合はそのままシェルが表示されます。それ以外の場合はパスワードの入力が求められます。パスワードを入力 (画面には表示されません) して <kbd>Enter</kbd> を押してください。
+
+```
+(pi@raspberrypi) Password:
+
+Linux raspberrypi 5.15.56-v8+ #1575 SMP PREEMPT Fri Jul 22 20:31:26 BST 2022 aarch64
+  ⋮
+pi@raspberrypi:~ $ _
+```
+
 
 ### Secure Copy
 
