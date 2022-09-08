@@ -51,15 +51,14 @@ GIC-400割込みコントローラをLinuxと共用しています。割込み�
 
 SOLID[ログ出力API][3] (e.g., `SOLID_LOG_printf`) はBCM2711 Mini UART (GPIO 14/15, 40ピンヘッダ 8/10,  3.3V) に接続されています。ボーレートは115200に設定されています。
 
+<p align="center"><img src="img/pcb-uart0.svg" alt=""><br></p>
+<p align="right"><sup><a href="https://commons.wikimedia.org/wiki/File:RaspberryPi_4B.svg">Jstrom99</a>, CC BY-SA 4.0.</sup></p>
+
 > **注意:** [Linuxシリアルコンソール](system-linux.md#UARTシリアルコンソール)も同じUARTポートを使用するため、同時に出力が行われると出力内容が壊れることがあります。
-
-![](img/pcb-uart0.svg)
-
-<sup>[Jstrom99](https://commons.wikimedia.org/wiki/File:RaspberryPi_4B.svg), CC BY-SA 4.0.</sup>
 
 ログ出力を見るためにはUSB-UARTケーブル等が必要です。Windows向けのシリアル端末プログラムとしてはTera TermやPuTTYなどが定番です。SOLID-IDEの[内蔵ターミナル][13]もシリアルポートに対応しています。
 
-![](img/ide-terminal-config.png)
+<p align="center"><img src="img/ide-terminal-config.png" alt=""></p>
 
 <!-- TODO: 別のUARTポートに接続すればRaspberry Pi OS経由で出力が見れるのでは? -->
 
