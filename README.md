@@ -1,5 +1,9 @@
 <h1 align="center">
-<img src="doc/img/solid-rpi4b.svg" alt="SOLID for Raspberry Pi 4">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="doc/img/solid-rpi4b.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="doc/img/solid-rpi4b-dark.svg">
+    <img src="doc/img/solid-rpi4b.svg" alt="SOLID for Raspberry Pi 4">
+  </picture>
 </h1>
 
 **SOLID for Raspberry Pi 4**は[SOLID組込みソフトウェア開発プラットフォーム](https://solid.kmckk.com/SOLID/)を[Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)上で簡単にお試しいただけるソフトウェアパッケージです。Raspberry Pi OS + SOLID-OSを書き込んだSDカードからRaspberry Piをブートし、ホストPCにインストールした開発環境からネットワーク経由で接続するだけでベアメタル・RTOSアプリケーション開発が始められます。別のコアでLinuxが同時に動作しているため、RTOSとLinuxの連携を活かしたアプリケーションの開発方法を検討するのにも役立ちます。
