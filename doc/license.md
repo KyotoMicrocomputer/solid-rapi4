@@ -39,11 +39,11 @@ $ rm id_ed25519.pub
 ## Raspberry Pi Selectorの起動とライセンスの取得
 
 ソリューションを開くと、Raspberry Pi Selectorが自動で起動します。
-**Search** を押すとネットワーク内に存在するRaspberry Pi 4のリストが表示されるので、IPアドレスやホスト名 (HN) などを確認し、SSH公開鍵を書き込んだターゲットを選択して **Save** を押してください。
+**検索** を押すとネットワーク内に存在するRaspberry Pi 4のリストが表示されるので、IPアドレスやホスト名などを確認し、SSH公開鍵を書き込んだターゲットを選択して **保存** を押してください。
 
    ![lm-select-target](img/lm-select-target.png)
 
-任意のプロファイル名を **Name** に、ログイン時のユーザ名を **User** にそれぞれ入力し、 **保存**を押します。
+任意のプロファイル名を **表示名** に、ログイン時のユーザ名を **ユーザー名** にそれぞれ入力し、 **保存**を押します。
 
    ![lm-new-profile](img/lm-new-profile.png)
 
