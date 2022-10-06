@@ -29,9 +29,9 @@ kernel=ghost-rpi4.bin.gz
 
 **Ghostd**はモニタデバッガからデバッグモニタへの通信やSOLIDアプリケーションから[OS間通信機構](system-rtos.md#os間通信-oscom-rpc)を介して行われるファイルシステム・ネットワークAPIコールを仲介するデーモンプログラムです。これはsystemd unit `ghostd.service` として登録されており、 `systemctl restart ghostd` などのコマンドで動作を制御することができます。
 
-設定ファイルは `/etc/ghostd.toml` にあり、ファイルシステム・ネットワークAPIコールをLinuシステムコールに変換して処理するサーバー (OSCOM RPCサーバー) をどのユーザ・グループの権限で起動するか (`rpc.{user,group}`) などを指定できます。
+設定ファイルは `/etc/ghostd.toml` にあり、ファイルシステム・ネットワークAPIコールをLinuxシステムコールに変換して処理するサーバー (OSCOM RPCサーバー) をどのユーザ・グループの権限で起動するか (`rpc.{user,group}`) などを指定できます。
 
-> **注意:** SOLID for Raspberry Pi 4では `listen` キー以下の設定を変更することはサポートされておらず、動作に支障を生じる可能性があります。また、OSCOM RPCサーバーの分離は不完全であり、 `rpc.{user,group}` はセキュリティ機構として使用すべきではありません。
+> **注意:** SOLID for Raspberry Pi 4では `listen` キー以下の設定を変更することはサポート対象外であり、IDEとの連携に支障をきたす可能性があります。また、`rpc.{user,group}` はセキュリティ機構として使用すべきではありません。
 
 
 ## Ghost CLI
@@ -51,7 +51,7 @@ $ ghost version
 
 ## リモートアクセス
 
-開発中は開発環境からLinuxシステムにリモートアクセスできると便利ですが、これには以下で説明する方法があります。
+開発環境からLinuxシステムにリモートアクセスするには次の方法があります。
 
 ### SSHリモートログイン
 
