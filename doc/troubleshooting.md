@@ -62,6 +62,20 @@ Rust MinGWツールチェーンの[制約][3]です。ソリューションを�
 ## デバッグ
 
 <details>
+<summary><b>実行を中断すると "ソースは利用できません" という表示が出る。</b></summary>
+
+リアルタイムOSのソースコードは提供されていないため、ここで実行を中断した場合はソースコードは表示されません。ただし、この場合でも呼び出し履歴ウィンドウ (<kbd>Alt+7</kbd>) から呼び出し元を辿ることはできます。
+
+アイドル状態 (実行可能なタスクがない) の場合もOS内で実行が中断します。この状況は次の方法で確認することができます。
+
+- 呼び出し履歴ウィンドウ (<kbd>Alt+7</kbd>) に `ghost_debug.elf!_kernel_exit_and_dispatch()` という行のみが表示されている。
+- 逆アセンブルウィンドウ (<kbd>Alt+8</kbd>) を表示すると `wfi` (Wait for Interrupt) 命令で実行が中断している。
+
+待ち状態のタスクを探すには[スレッド][7] (<kbd>Ctrl+Alt+H</kbd>) または[並列スタック][8]ウィンドウ (<kbd>Ctrl+Shift+D</kbd>, <kbd>S</kbd>) を使用すると便利です。タスクの待ち要因は[RTOSビューア][5]で確認できます。
+
+</details>
+
+<details>
 <summary><b>"アプリケーションホストからの応答がありません。ターゲットシステムの再起動が必要な可能性があります。" というエラーが出た。</b></summary>
 
 デバッグモニタがハングアップしていることが考えられます。この場合、 `sudo reboot` コマンドなどの方法でRaspberry Piを再起動することが必要です。これはモニタデバッガの[技術的制限](limitations.md)です。
@@ -181,3 +195,5 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 [4]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#new-style-revision-codes-in-use
 [5]: http://solid.kmckk.com/doc/skit/current/user_guide/rtos_viewer.html
 [6]: http://solid.kmckk.com/doc/skit/current/user_guide/rtos_viewer.html#id19
+[7]: http://solid.kmckk.com/doc/skit/current/user_guide/thread-viewer.html
+[8]: http://solid.kmckk.com/doc/skit/current/user_guide/parallel_stack.html
