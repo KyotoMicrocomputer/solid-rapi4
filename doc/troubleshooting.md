@@ -50,6 +50,19 @@ Raspberry PiがUDPポート51590のパケットが受信できるように設定
 
 </details>
 
+<details>
+<summary><b>Raspberry Pi Selectorで接続時に "Host key verification failed" というエラーが出る。</b></summary>
+
+SSHサーバーは固有の識別子を持っており、SSHクライアントはこれとホスト名の対応関係を `%USERPROFILE%\.ssh\known_hosts` テキストファイルで記憶しています。Raspberry Pi Selectorはここに記憶された既知のサーバーにのみ接続できます。既知のサーバーでも、記憶されているのと全く同じホスト名で接続しなければなりません。
+
+対応関係を記憶させるには、一度Windows標準のSSHクライアントを使用して[サーバーに接続](system-linux.md#sshリモートログイン)してください。この際、**ホスト名がRaspberry Pi Selectorに登録されているものと完全に同じ**になるようにしてください。
+
+> **注意:** WSL (Windows Subsystem for Linux) やMSYS2からこれを行うと異なる場所の `known_hosts` に保存される可能性があります。[Windowsオプション機能][9]として提供されているOpenSSHクライアントを使用するようにしてください。
+
+<p align="center"><img src="img/lm-ssh-hostname.png"></p>
+
+</details>
+
 ## ビルド
 
 <details>
@@ -197,3 +210,4 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 [6]: http://solid.kmckk.com/doc/skit/current/user_guide/rtos_viewer.html#id19
 [7]: http://solid.kmckk.com/doc/skit/current/user_guide/thread-viewer.html
 [8]: http://solid.kmckk.com/doc/skit/current/user_guide/parallel_stack.html
+[9]: https://learn.microsoft.com/ja-jp/windows-server/administration/openssh/openssh_install_firstuse
