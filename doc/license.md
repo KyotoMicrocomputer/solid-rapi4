@@ -43,7 +43,7 @@ $ rm id_ed25519.pub
 
    ![lm-select-target](img/lm-select-target.png)
 
-任意のプロファイル名を **表示名** に、ログイン時のユーザ名を **ユーザー名** にそれぞれ入力し、 **保存**を押します。
+任意のプロファイル名を **表示名** に、接続先（[SSH](system-linux.md#sshリモートログイン)の接続に使用したもの）を **ホスト名** に、ログイン時のユーザ名を **ユーザー名** にそれぞれ入力し、 **保存**を押します。
 
    ![lm-new-profile](img/lm-new-profile.png)
 
