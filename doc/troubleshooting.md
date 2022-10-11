@@ -72,6 +72,18 @@ Rust MinGWツールチェーンの[制約][3]です。ソリューションを�
 
 </details>
 
+<details>
+<summary><b>Rustプロジェクトのビルドが "the 'cargo.exe' binary, normally provided by the 'cargo' component, is not applicable to the 'nightly-2022-08-12-x86_64-pc-windows-gnu' toolchain" エラーで失敗する。</b></summary>
+
+ツールチェーンのインストールに失敗している可能性があります。SOLID-IDEを終了後、コマンドプロンプトで以下のコマンドを実行し、ツールチェーンの再インストールを行ってから、再度お試しください。
+
+```
+rustup toolchain uninstall nightly-2022-08-12-x86_64-pc-windows-gnu
+rustup toolchain install nightly-2022-08-12-x86_64-pc-windows-gnu
+```
+
+</details>
+
 ## デバッグ
 
 <details>
