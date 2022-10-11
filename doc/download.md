@@ -24,7 +24,7 @@ SOLID for Raspberry Pi 4とOSイメージの最新版はこちらからダウン
 
 > SOLID for Raspberry Pi 4開発環境を使用するにはインストール中に表示される使用許諾契約に同意することが必要です。
 >
-> SDカードイメージに含まれるSOLID for Raspberry Pi 4用のコンポーネント (Ghostd, Ghost Beacon) を使用するには[こちらの使用許諾契約](https://www.example.com)に同意することが必要です。イメージをダウンロードすることによりにこれに同意したものとみなします。
+> SDカードイメージに含まれるSOLID for Raspberry Pi 4用のコンポーネントを使用するには[SOLID for Raspberry Pi 4 Ghost使用許諾契約書](eula-ghost.md)に同意することが必要です。イメージをダウンロードすることによりにこれに同意したものとみなします。
 
 - 開発環境のインストール方法についてはチュートリアル [開発環境のセットアップ](setup-devenv.md) を参照してください。
 - SDカードイメージの書込み方法についてはチュートリアル [SDカードの準備](flashing-sd-card.md) を参照してください。
