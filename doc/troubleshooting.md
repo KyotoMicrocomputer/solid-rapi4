@@ -119,6 +119,13 @@ $ sudo systemctl restart ghostd
 </details>
 
 <details>
+<summary><b>"ライセンスが取得できません。" というエラーが出た。</b></summary>
+
+Raspberry Pi Selectorが起動していて、[ターゲットに接続](license.md#raspberry-pi-selectorの起動とライセンスの取得)した状態であることを確認してください。
+
+</details>
+
+<details>
 <summary><b>ステップ実行が非常に遅い。</b></summary>
 
 [RTOSビューア][5]が表示中の場合、実行を停止するたびにウィンドウの内容を更新するため、 ステップ実行などの動作が極端に遅くなります。ステップ実行を行う際は非表示にするか、[自動更新を停止する][6]ことをお勧めします。
