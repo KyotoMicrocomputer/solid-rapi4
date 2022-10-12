@@ -1,10 +1,10 @@
 # SDカードの準備
 
-最新の[SOLID for Raspberry Pi 4用SDカードイメージ](http://solid.kmckk.com/rpi4/image_2022-07-05-SOLID-RPI4-raspios-bullseye-lite.img.xz)をダウンロードし、[Raspberry Pi Imager](https://www.raspberrypi.com/software/)で書き込みます。
+最新のSOLID for Raspberry Pi 4用SDカードイメージ (`SOLID-RPi4B-<version>-raspios-bullseye-lite.img.xz`) を[ダウンロードページ](download.md)からダウンロードし、[Raspberry Pi Imager](https://www.raspberrypi.com/software/)で書き込みます。
 
 ## カスタムイメージの選択
 
-Raspberry Pi Imagerを起動し、OSの選択画面で **カスタムイメージを使う** を選択し、ダウンロードしたSDカードイメージ (`image_yyyy-mm-dd-SOLID-RPI4-raspios-bullseye-lite.img.xz`) を指定します。
+Raspberry Pi Imagerを起動し、OSの選択画面で **カスタムイメージを使う** を選択し、ダウンロードしたSDカードイメージを指定します。
 
  ![rpi-imager-select](img/rpi-imager-select-os.png)
 
