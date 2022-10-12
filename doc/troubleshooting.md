@@ -66,6 +66,13 @@ SSHサーバーは固有の識別子を持っており、SSHクライアント�
 ## ビルド
 
 <details>
+<summary><b>ビルドが "Failed to get license: SOLID_RASPI" エラーで失敗する。</b></summary>
+
+Raspberry Pi Selectorが起動していて、[ターゲットに接続](license.md#raspberry-pi-selectorの起動とライセンスの取得)した状態であることを確認してください。
+
+</details>
+
+<details>
 <summary><b>Rustプロジェクトのビルドが "No such file or directory" エラーで失敗する。</b></summary>
 
 Rust MinGWツールチェーンの[制約][3]です。ソリューションを非ASCII文字を含まない短いパスの場所に移動して再度お試しください。ソリューションの完全パスが110文字以内に収まるようにすることを推奨します。
