@@ -70,11 +70,6 @@ SOLID for Raspberry Pi 4の仕様と留意事項について説明します。
 
 - [制限事項](doc/limitations.md)
 
-- 内部設計
-<!-- TODO: システム構成 -->
-<!-- TODO: ライフサイクル -->
-<!-- TODO: OSCOM RPC -->
-
 -------
 
 ## リンク集
