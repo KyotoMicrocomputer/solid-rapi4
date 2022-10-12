@@ -11,12 +11,12 @@ SOLID for Raspberry Pi 4とOSイメージの最新版はこちらからダウン
     <tr>
         <td>SOLID for Raspberry Pi 4開発環境
         <td><a href="https://www.example.com"><b><code>SOLID-RPi4B-IDE-0.44.exe</code></b></a>
-        <td><a href="https://www.example.com">リリースノート
+        <td><a href="releases-devenv.md">リリースノート
     </tr>
     <tr>
         <td>SDカードイメージ<br><sup>(Raspberry Pi OS Lite 64-bit + SOLID-OS)</sup>
         <td><a href="https://www.example.com"><b><code>SOLID-RPi4B-0.2.3-raspios-bullseye-lite.img.xz</code></b></a>
-        <td><a href="https://www.example.com">リリースノート
+        <td><a href="releases-os.md">リリースノート
     </tr>
 </table>
 
