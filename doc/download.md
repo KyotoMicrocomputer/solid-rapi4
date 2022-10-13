@@ -15,7 +15,7 @@ SOLID for Raspberry Pi 4とOSイメージの最新版はこちらからダウン
     </tr>
     <tr>
         <td>SDカードイメージ<br><sup>(Raspberry Pi OS Lite 64-bit + SOLID-OS)</sup>
-        <td><a href="https://solid.kmckk.com/rpi4/download/SOLID-RPi4B-0.2.5-raspios-bullseye-lite.img.xz"><b><code>SOLID-RPi4B-0.2.5-raspios-bullseye-lite.img.xz</code></b></a>
+        <td><a href="https://solid.kmckk.com/rpi4/download/SOLID-RPi4B-1.0.0-raspios-bullseye-lite.img.xz"><b><code>SOLID-RPi4B-1.0.0-raspios-bullseye-lite.img.xz</code></b></a>
         <td><a href="releases-os.md">リリースノート
     </tr>
 </table>
