@@ -22,7 +22,7 @@
 - 容量16GB以上のSDカード
 - ネットワーク接続
   - Raspberry Pi 4 Model BとホストPCがネットワークで通信できる必要があります。
-- USB-UARTケーブル ([ログ出力](system-rtos.md#ログ出力)の表示に必要)
+- USB-UARTケーブル ([ログ出力](doc/system-rtos.md#ログ出力)の表示に必要)
 
 -------
 
