@@ -10,7 +10,7 @@ SOLID for Raspberry Pi 4とOSイメージの最新版はこちらからダウン
     </tr>
     <tr>
         <td>SOLID for Raspberry Pi 4開発環境
-        <td><a href="https://solid.kmckk.com/rpi4/download/SOLID-RPI4B-IDE-1.0.0.exe"><b><code>SOLID-RPi4B-IDE-1.0.0.exe</code></b></a>
+        <td><a href="https://solid.kmckk.com/rpi4/download/SOLID-RPI4B-IDE-1.0.1.exe"><b><code>SOLID-RPi4B-IDE-1.0.1.exe</code></b></a>
         <td><a href="releases-devenv.md">リリースノート
     </tr>
     <tr>
