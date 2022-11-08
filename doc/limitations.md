@@ -54,8 +54,10 @@ TOPPERSカーネルのシステムログ機能は使用できません。
 - ソケットAPI
     - Ancillary dataはサポートされていません。
     - データグラムメッセージのサイズは約4KBに制限されており、制限を超える送信メッセージは `SOLID_NET_ERR_EMSGSIZE` エラーを起こし、受信メッセージは `SOLID_NET_Recv` 等のAPI呼出しを処理する過程で破棄されます。
+    - `SOLID_NET_IOCTL_FIONREAD` で次回受信メッセージのサイズを取得するとき、上の理由により破棄されるメッセージのサイズが返されることがあります。
     - `SOLID_NET_GetAddrInfo` の入出力サイズには上限があり、これを超えると `SOLID_NET_ERR_EAI_FAIL` エラーを返して失敗します。
-
+    - `SOLID_NET_Poll` に渡せる要素数は64個に制限されています。<!-- OSCOM_MAX_NFDS -->`SOLID_NET_Select` は内部で `SOLID_NET_Poll` を使用しており、同様の制限を受けます。EPollはこの制限を受けません。
+    - `SOLID_NET_Send*` は `WAITALL` フラグをサポートしていません。<!-- RM #3457 -->
 
 ## モニタデバッガ
 
