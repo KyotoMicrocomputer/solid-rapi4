@@ -20,7 +20,7 @@
 #define TNUM_AID_MPF    1000        // 固定長メモリプール
 #define TNUM_AID_CYC    2000        // 周期通知
 #define TNUM_AID_ALM    2000        // アラーム通知
-#define TNUM_AID_ISR    1000        // ISR (割込みサービスルーチン)
+#define TNUM_AID_ISR    0           // ISR (割込みサービスルーチン)
 #define TNUM_AID_RWL    30000       // RWロック
 ```
 
