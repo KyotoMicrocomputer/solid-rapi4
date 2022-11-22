@@ -19,13 +19,15 @@ Enter same passphrase again: # Enter
 生成した `id_ed25519.pub` を[SCP](system-linux.md#secure-copy)などのプログラムを使用してRaspberry Pi 4側に転送してください。
 
 ```
-> scp id_ed25519.pub user@hostname:
+> scp id_ed25519.pub pi@raspberrypi:
 ```
+
+> `pi` と `raspberrypi` はそれぞれ[イメージ書き込み時](./flashing-sd-card.md)にRaspberry Pi Imagerで指定したユーザー名とホスト名で置き換えてください。これがデフォルト値なので、指定していなければ置き換える必要はありません。
 
 Raspberry Pi 4に[SSH](system-linux.md#sshリモートログイン)でリモートログインし、転送した `id_ed25519.pub` を `authorized_keys` ファイルに追加してください。
 
 ```
-> ssh user@hostname
+> ssh pi@raspberrypi
 
 $ mkdir .ssh
 $ chmod 700 .ssh
