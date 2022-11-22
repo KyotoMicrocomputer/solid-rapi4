@@ -28,9 +28,23 @@ Revision        : d03114
 ## ネットワーク
 
 <details>
+<summary><b>Raspberry Piに接続できない。ホスト名を指定して接続している。</b></summary>
+
+[SSH](system-linux.md#sshリモートログイン)や[Raspberry Pi Selector](license.md#raspberry-pi-selectorの起動とライセンスの取得)でホスト名 (e.g., `raspberrypi`) を指定して接続する場合は[マルチキャストDNS][10]という方法で接続先を検索します。通常はこれでうまくいくことが多いのですが、ネットワーク構成によっては失敗する場合があるようです。
+
+ホスト名が使用できない場合、IPアドレスを代わりに指定して接続してください。IPアドレスを調べる方法としては、Raspberry Pi上で `ip addr` コマンドを実行する方法があります。他の方法については[Raspberry Pi公式ドキュメント][11] (英語) をご覧ください。
+
+> **注意:** IPアドレスを[DHCP][12]により動的割り当てする環境では、Raspberry PiのIPアドレスが変化する可能性があります。IPアドレスが変化した場合、以下の手順を再実施する必要があります。
+>
+> 1. 新しいIPアドレスで[SSHリモートログイン](system-linux.md#sshリモートログイン)を行ってください。接続が完了してシェルが表示されればOKです。
+> 2. [Raspberry Pi Selector](license.md#raspberry-pi-selectorの起動とライセンスの取得)の **Home** 画面から作成済みのプロファイルを選択し、**編集** を押し、表示されるダイアログで **ホスト名** 入力欄の内容を修正してください。
+
+</details>
+
+<details>
 <summary><b>Raspberry Piに接続できなくなった。</b></summary>
 
-Linuxカーネルがハングアップしている可能性が疑われます。UARTコンソールでエンターキーを入力し、Linuxのログインプロンプトが表示されるか確認してください。UARTコンソールも反応しない場合、Raspberry Piの電源を切断して再起動することが必要です。
+Raspberry Piの電源が入っているのに突然接続できなくなった場合、Linuxカーネルがハングアップしている可能性が疑われます。UARTコンソールでエンターキーを入力し、Linuxのログインプロンプトが表示されるか確認してください。UARTコンソールも反応しない場合、Raspberry Piの電源を切断して再起動することが必要です。
 
 SOLID-OSとLinuxは完全に分離されていないため、モニタデバッガやロードしたアプリケーションの誤作動が原因でLinuxがハングアップする可能性があります。例えば、Linuxが使用しているペリフェラルの割込みラインの設定をSOLID-OSから変更することは推奨されません。
 
@@ -237,3 +251,6 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 [7]: http://solid.kmckk.com/doc/skit/current/user_guide/thread-viewer.html
 [8]: http://solid.kmckk.com/doc/skit/current/user_guide/parallel_stack.html
 [9]: https://learn.microsoft.com/ja-jp/windows-server/administration/openssh/openssh_install_firstuse
+[10]: https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88DNS
+[11]: https://www.raspberrypi.com/documentation/computers/remote-access.html#ip-address
+[12]: https://ja.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol

@@ -24,6 +24,8 @@ Enter same passphrase again: # Enter
 
 > `pi` と `raspberrypi` はそれぞれ[イメージ書き込み時](./flashing-sd-card.md)にRaspberry Pi Imagerで指定したユーザー名とホスト名で置き換えてください。これがデフォルト値なので、指定していなければ置き換える必要はありません。
 
+> `Could not resolve hostname` と表示されて接続できない場合、トラブルシューティング "[Raspberry Piに接続できない。ホスト名を指定して接続している。](troubleshooting.md#ネットワーク)" を参照してください。
+
 Raspberry Pi 4に[SSH](system-linux.md#sshリモートログイン)でリモートログインし、転送した `id_ed25519.pub` を `authorized_keys` ファイルに追加してください。
 
 ```
