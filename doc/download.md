@@ -1,6 +1,8 @@
 # ダウンロード
 
 SOLID for Raspberry Pi 4とOSイメージの最新版はこちらからダウンロードできます。
+            
+**注意: `SOLID-RPI4B-IDE-1.0.2` を使用する場合は、必ずSDカードを`SOLID-RPi4B-1.1.0`以降に更新してください。**
 
 <table>
     <tr>
@@ -19,8 +21,6 @@ SOLID for Raspberry Pi 4とOSイメージの最新版はこちらからダウン
         <td><a href="releases-os.md">リリースノート
     </tr>
 </table>
-
-<!-- TODO: Replace links -->
 
 > SOLID for Raspberry Pi 4開発環境を使用するにはインストール中に表示される使用許諾契約に同意することが必要です。
 >
