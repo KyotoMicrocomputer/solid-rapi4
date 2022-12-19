@@ -25,6 +25,8 @@
 ```
 
 > **注意:** 動的生成資源数の上限は使用に支障が生じないよう多めに設定してありますが、将来のバージョンで予告なく変更される可能性があります。
+>
+> タスクやメッセージバッファ等は制御ブロックに加えてスタックやバッファ領域も[必要][9]なため、これらの上限数に達する前にメモリ不足エラー (`E_NOMEM`) で動的生成に失敗する場合があります。
 
 
 ### 割込みハンドラ
@@ -83,3 +85,4 @@ TOPPERSカーネルのシステムログ機能は使用できません。
 [6]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
 [7]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id63
 [8]: http://solid.kmckk.com/doc/skit/current/user_guide/code_coverage.html
+[9]: http://solid.kmckk.com/doc/skit/current/os/kernel/memory_management/overview.html
