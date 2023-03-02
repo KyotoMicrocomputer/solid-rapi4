@@ -16,7 +16,7 @@ Enter same passphrase again: # Enter
 
 ## SSH公開鍵の転送と書き込み
 
-生成した `id_ed25519.pub` を[SCP](system-linux.md#secure-copy)などのプログラムを使用してRaspberry Pi 4側に転送してください。
+生成した `id_ed25519.pub` を[SCP](system-linux.md#secure-copy)を使用してRaspberry Pi 4側に転送してください。
 
 ```
 > cd C:\Users\<Username>\.ssh
