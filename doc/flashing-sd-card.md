@@ -21,6 +21,8 @@ Raspberry Pi Imagerを起動し、OSの選択画面で **カスタムイメー�
 
 > **注意:** エクスプローラからイメージを選択しRasberry Pi Imagerを起動した場合、設定ボタンが表示されません ([raspberrypi/rpi-imager#451](https://github.com/raspberrypi/rpi-imager/issues/451))。
 
+> **注意:** 同じネットワークに複数のRaspberry Pi 4を接続する場合、必ずホスト名を指定してください。ホスト名が重複しているとSSHクライアントによってDNS偽装攻撃 (DNS spoofing attack) として誤検出される可能性があります。
+
 ## イメージの書き込み
 
 **書き込む** ボタンをクリックしてイメージを書き込んでください。
