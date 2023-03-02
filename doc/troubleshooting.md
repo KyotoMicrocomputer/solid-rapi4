@@ -65,15 +65,19 @@ Raspberry PiがUDPポート51590のパケットが受信できるように設定
 </details>
 
 <details>
-<summary><b>Raspberry Pi Selectorで接続時に "Host key verification failed" というエラーが出る。</b></summary>
+<summary><b>Raspberry Pi Selectorで接続時に "Host key verification failed" または "WARNING: POSSIBLE DNS SPOOFING DETECTED!" というエラーが出る。</b></summary>
 
-SSHサーバーは固有の識別子を持っており、SSHクライアントはこれとホスト名の対応関係を `%USERPROFILE%\.ssh\known_hosts` テキストファイルで記憶しています。Raspberry Pi Selectorはここに記憶された既知のサーバーにのみ接続できます。既知のサーバーでも、記憶されているのと全く同じホスト名で接続しなければなりません。
+SSHサーバーは固有の識別子を持っており、SSHクライアントはサーバーのホスト名と識別子の対応関係を `%USERPROFILE%\.ssh\known_hosts` テキストファイルで記憶しています。Raspberry Pi Selectorはここに記憶された既知のサーバーにのみ接続できます。
 
-対応関係を記憶させるには、一度Windows標準のSSHクライアントを使用して[サーバーに接続](system-linux.md#sshリモートログイン)してください。この際、**ホスト名がRaspberry Pi Selectorに登録されているものと完全に同じ**になるようにしてください。
+"Host key verification failed" というエラーが出る場合、まだ対応関係が登録されていないので、一度Windows標準のSSHクライアントを使用して[サーバーに接続](system-linux.md#sshリモートログイン)してください。この際、**ホスト名がRaspberry Pi Selectorに登録されているものと完全に同じ**になるようにしてください。
 
-> **注意:** WSL (Windows Subsystem for Linux) やMSYS2からこれを行うと異なる場所の `known_hosts` に保存される可能性があります。[Windowsオプション機能][9]として提供されているOpenSSHクライアントを使用するようにしてください。
+> **注意:** WSL (Windows Subsystem for Linux) やMSYS2からこれを行うと異なる場所の `known_hosts` に保存される可能性があります。TeraTermなど別のSSHクライアントはまったく独立した仕組みを利用しています。必ず、**[Windowsオプション機能][9]として提供されているOpenSSHクライアント**を使用するようにしてください。
 
 <p align="center"><img src="img/lm-ssh-hostname.png"></p>
+
+[SDカードイメージの書込み](./flashing-sd-card.md)を行うとサーバー側の識別子が再生成されるため、記録された対応関係が無効になります。"WARNING: POSSIBLE DNS SPOOFING DETECTED!" というエラーが出る場合、`%USERPROFILE%\.ssh\known_hosts` テキストファイルを編集し、古い行を削除してください。
+
+> このエラーは、ホスト名が指すサーバーが変化したことを表します。[DNS偽装攻撃](https://ja.wikipedia.org/wiki/DNS%E3%82%B9%E3%83%97%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B0) (DNS spoofing attack) が一つの要因ですが、意図的にサーバーを置き換えたときや、DHCP環境でIPアドレスが別のホストで再利用されたときも同じことが起こります。
 
 </details>
 
