@@ -19,7 +19,7 @@
 ## 必要なもの
 
 - [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) (4GBまたは8GB RAM)
-- 容量16GB以上のSDカード
+- 容量16GB以上のmicroSDカード
 - Windows PC (64-bit Windows 10 or 11)
 - ネットワーク接続
   - Raspberry Pi 4 Model BとホストPCがネットワークで通信できる必要があります。
