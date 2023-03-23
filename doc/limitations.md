@@ -77,12 +77,12 @@ TOPPERSカーネルのシステムログ機能は使用できません。
 - その他、特にシステムレジスタの変更など。
 
 
-[1]: http://solid.kmckk.com/doc/skit/current/os/solution-config.html?highlight=%E3%83%A2%E3%83%8B%E3%82%BF#solid-os
-[2]: http://solid.kmckk.com/doc/skit/current/user_guide/function_trace.html
-[3]: http://solid.kmckk.com/doc/skit/current/user_guide/hardware_trace.html
-[4]: http://solid.kmckk.com/doc/skit/current/user_guide/address_sanitizer.html
-[5]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id68
-[6]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
-[7]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id63
-[8]: http://solid.kmckk.com/doc/skit/current/user_guide/code_coverage.html
-[9]: http://solid.kmckk.com/doc/skit/current/os/kernel/memory_management/overview.html
+[1]: https://solid.kmckk.com/SOLID/doc/latest/os/solution-config.html?highlight=%E3%83%A2%E3%83%8B%E3%82%BF#solid-os
+[2]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/function_trace.html
+[3]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/hardware_trace.html
+[4]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/address_sanitizer.html
+[5]: https://solid.kmckk.com/SOLID/doc/latest/os/kernel/kernel_config.html#id68
+[6]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/intc.html#c.SOLID_INTC_Register
+[7]: https://solid.kmckk.com/SOLID/doc/latest/os/kernel/kernel_config.html#id63
+[8]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/code_coverage.html
+[9]: https://solid.kmckk.com/SOLID/doc/latest/os/kernel/memory_management/overview.html

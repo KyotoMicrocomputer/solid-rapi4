@@ -103,16 +103,16 @@ SOLID-OSで使用するRAMの物理アドレス範囲はdevice tree overlay `/bo
 
 
 [1]: https://toppers.jp/fmp3-kernel.html
-[2]: http://solid.kmckk.com/doc/skit/current/os/index.html
-[3]: http://solid.kmckk.com/doc/skit/current/os/cs/log.html
-[4]: http://solid.kmckk.com/doc/skit/current/os/kernel/api_spec.html
-[5]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html
-[6]: http://solid.kmckk.com/doc/skit/current/os/kernel/kernel_config.html#id63
-[7]: http://solid.kmckk.com/doc/skit/current/os/cs/rtc.html
-[8]: http://solid.kmckk.com/doc/skit/current/os/cs/dmac.html
-[9]: http://solid.kmckk.com/doc/skit/current/os/cs/timer.html
-[10]: http://solid.kmckk.com/doc/skit/current/os/filesystem.html
-[11]: http://solid.kmckk.com/doc/skit/current/user_guide/event_tracker.html
+[2]: https://solid.kmckk.com/SOLID/doc/latest/os/index.html
+[3]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/log.html
+[4]: https://solid.kmckk.com/SOLID/doc/latest/os/kernel/api_spec.html
+[5]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/intc.html
+[6]: https://solid.kmckk.com/SOLID/doc/latest/os/kernel/kernel_config.html#id63
+[7]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/rtc.html
+[8]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/dmac.html
+[9]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/timer.html
+[10]: https://solid.kmckk.com/SOLID/doc/latest/os/filesystem.html
+[11]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/event_tracker.html
 [12]: https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file?redirectedfrom=MSDN#naming-conventions
-[13]: http://solid.kmckk.com/doc/skit/current/user_guide/terminal.html
+[13]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/terminal.html
 

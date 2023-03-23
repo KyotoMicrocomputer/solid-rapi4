@@ -8,7 +8,7 @@
 
 <p align="center">
    <a href="doc/download.md"><b>ダウンロード</b></a> |
-   <a href="http://solid.kmckk.com/doc/skit/current/"><b>SOLIDドキュメント</b></a> |
+   <a href="https://solid.kmckk.com/SOLID/doc/latest/"><b>SOLIDドキュメント</b></a> |
    <a href="https://github.com/KyotoMicrocomputer/solid-rapi4-examples"><b>サンプル集</b></a>
 </p>
 
@@ -75,13 +75,13 @@ SOLID for Raspberry Pi 4の仕様と留意事項について説明します。
 
 ## リンク集
 
-- [SOLIDドキュメント](http://solid.kmckk.com/doc/skit/current/index.html)
-   - [SOLID-OS](http://solid.kmckk.com/doc/skit/current/os/index.html)
-   - [SOLID-Rust](http://solid.kmckk.com/doc/skit/current/solid_rust/rust.html) (Rustに関係するIDEの機能やSOLID固有の事項)
+- [SOLIDドキュメント](https://solid.kmckk.com/SOLID/doc/latest/index.html)
+   - [SOLID-OS](https://solid.kmckk.com/SOLID/doc/latest/os/index.html)
+   - [SOLID-Rust](https://solid.kmckk.com/SOLID/doc/latest/solid_rust/rust.html) (Rustに関係するIDEの機能やSOLID固有の事項)
 - [Nightly Rustドキュメント](https://doc.rust-lang.org/nightly/) (英語)
    - [標準ライブラリのAPIリファレンスマニュアル](https://doc.rust-lang.org/nightly/std/index.html) (英語)
 - [Rustの日本語ドキュメント](https://doc.rust-jp.rs/)
-- [TOPPERS第3世代カーネル (ITRON系) 統合仕様書 Release 3.5.0](https://toppers.jp/docs/tech/tgki_spec-350.pdf) (SOLID for Raspberry Pi 4のRTOSカーネルは[TOPPERS/FMP3](https://toppers.jp/fmp3-kernel.html)をベースに[機能拡張](http://solid.kmckk.com/doc/skit/current/os/kernel/api_spec.html#toppers)しています)
+- [TOPPERS第3世代カーネル (ITRON系) 統合仕様書 Release 3.5.0](https://toppers.jp/docs/tech/tgki_spec-350.pdf) (SOLID for Raspberry Pi 4のRTOSカーネルは[TOPPERS/FMP3](https://toppers.jp/fmp3-kernel.html)をベースに[機能拡張](https://solid.kmckk.com/SOLID/doc/latest/os/kernel/api_spec.html#toppers)しています)
 - [ウィキブックス UNIX/Linux入門](https://ja.wikibooks.org/wiki/UNIX/Linux%E5%85%A5%E9%96%80)
 - [Raspberry Pi公式サイト](https://www.raspberrypi.com/) (英語)
    - [BCM2711](https://www.raspberrypi.com/documentation/computers/processors.html#bcm2711) (Raspberry Pi 4 Model BのSoC) (英語)

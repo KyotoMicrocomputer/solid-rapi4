@@ -248,14 +248,14 @@ xxx: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically lin
 </details>
 
 
-[1]: http://solid.kmckk.com/doc/skit/current/os/cs/intc.html#c.SOLID_INTC_Register
+[1]: https://solid.kmckk.com/SOLID/doc/latest/os/cs/intc.html#c.SOLID_INTC_Register
 [2]: https://en.wikipedia.org/wiki/Ethernet_flow_control#Pause_frame
-[3]: http://solid.kmckk.com/doc/skit/current/troubleshooting/rust-path-length.html
+[3]: https://solid.kmckk.com/SOLID/doc/latest/troubleshooting/rust-path-length.html
 [4]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#new-style-revision-codes-in-use
-[5]: http://solid.kmckk.com/doc/skit/current/user_guide/rtos_viewer.html
-[6]: http://solid.kmckk.com/doc/skit/current/user_guide/rtos_viewer.html#id19
-[7]: http://solid.kmckk.com/doc/skit/current/user_guide/thread-viewer.html
-[8]: http://solid.kmckk.com/doc/skit/current/user_guide/parallel_stack.html
+[5]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/rtos_viewer.html
+[6]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/rtos_viewer.html#id19
+[7]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/thread-viewer.html
+[8]: https://solid.kmckk.com/SOLID/doc/latest/user_guide/parallel_stack.html
 [9]: https://learn.microsoft.com/ja-jp/windows-server/administration/openssh/openssh_install_firstuse
 [10]: https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88DNS
 [11]: https://www.raspberrypi.com/documentation/computers/remote-access.html#ip-address
