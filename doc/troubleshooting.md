@@ -75,7 +75,7 @@ SSHサーバーは固有の識別子を持っており、SSHクライアント�
 
 <p align="center"><img src="img/lm-ssh-hostname.png"></p>
 
-[SDカードイメージの書込み](./flashing-sd-card.md)を行うとサーバー側の識別子が再生成されるため、記録された対応関係が無効になります。"WARNING: POSSIBLE DNS SPOOFING DETECTED!" というエラーが出る場合、`%USERPROFILE%\.ssh\known_hosts` テキストファイルを編集し、古い行を削除してください。
+[SDカードイメージの書込み](./flashing-sd-card.md)を行うとサーバー側の識別子が再生成されるため、記録された対応関係が無効になります。"WARNING: POSSIBLE DNS SPOOFING DETECTED!" というエラーが出る場合、`ssh-keygen -R ホスト名` コマンド (e.g., `ssh-keygen -R raspberrypi`) を実行して古い情報を削除してください。
 
 > このエラーは、ホスト名が指すサーバーが変化したことを表します。[DNS偽装攻撃](https://ja.wikipedia.org/wiki/DNS%E3%82%B9%E3%83%97%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B0) (DNS spoofing attack) が一つの要因ですが、意図的にサーバーを置き換えたときや、DHCP環境でIPアドレスが別のホストで再利用されたときも同じことが起こります。
 >
