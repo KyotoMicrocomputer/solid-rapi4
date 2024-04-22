@@ -10,13 +10,9 @@
 
     ![install-1](img/solid-rpi4b-install-1.png)
 
-2. Visual Studio 2013 Shell (Isolated) のインストールが開始されます。
+2. Visual Studio 2015 Shell (Isolated) のインストールが開始されます。
 
-    詳細は [Visual Studio 2013 Shell (Isolated) のインストール](https://solid.kmckk.com/SOLID/doc/latest/tutorial/installation.html#shell) を参照してください。
+    詳細は [Visual Studio 2015 Shell (Isolated) のインストール](https://solid.kmckk.com/SOLID/doc/latest/tutorial/installation.html#shell) を参照してください。
 
 
 3. 次にデバッガ、IDEのコンポーネント、ツールチェーンなどがインストールされますので、ダイアログの指示に従ってインストールしてください。
-
-4. SOLID for Raspberry Pi 4のインストールが完了したら、Visual Studio Shell 2013 Update 5をインストールしてください。
-
-    詳細は [Visual Studio 2013 のアップデート](https://solid.kmckk.com/SOLID/doc/latest/tutorial/installation.html#visual-studio-2013) を参照してください。
