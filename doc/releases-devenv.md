@@ -2,6 +2,10 @@
 
 本ドキュメントには[ダウンロードページ](download.md)で配布しているSOLID for Raspberry Pi 4開発環境の更新履歴が含まれます。
 
+## SOLID-RPi4B-IDE-2.0.0
+
+- IDEをVisual Studio Shell 2015ベースに変更。
+
 ## SOLID-RPi4B-IDE-1.0.5
 
 ### 不具合修正
