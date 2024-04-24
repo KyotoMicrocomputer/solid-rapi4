@@ -37,7 +37,7 @@
 
 ### 不具合修正
 - `SOLID_USE_MONITORDEBUG` がデフォルトで定義されていなかったのを修正。
-- `Raspberry Pi Selector` でネットワーク上のラズベリーパイ4を検索中にクラッシュする場合があったのを修正。
+- `Raspberry Pi Selector` でネットワーク上のRaspberry Pi 4を検索中にクラッシュする場合があったのを修正。
 
 ## SOLID-RPi4B-IDE-1.0.1
 
